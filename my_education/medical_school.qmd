@@ -2,4 +2,25 @@
 title: M.D.
 author: "Northwestern University MSTP"
 description: "2019 - <br> Doctor of Medicine"
+image: ../images/light_purple.png
+page-layout: article
+toc: true
+toc-depth: 5
 ---
+
+### Highlights
+
+### Selected Modules
+
+-   Foundations 1-3
+-   Cardiovascular/Blood
+-   Pulmonology
+-   Renal
+-   Musculoskeletal/Dermatology
+-   Head & Neck
+-   Neuroscience
+-   Psychiatry
+-   Gastrointestinal
+-   Endocrine
+-   Reproductive/Genitourinary
+-   Hematology/Oncology

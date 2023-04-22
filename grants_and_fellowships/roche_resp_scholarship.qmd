@@ -1,0 +1,8 @@
+---
+title: Research Exchange Scholarship @ DKFZ Heidelberg
+years: "2012"
+description: Hoffman-La Roche
+type: Fellowship
+---
+
+![]()

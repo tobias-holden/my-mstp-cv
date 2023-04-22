@@ -1,0 +1,18 @@
+---
+title: Quantifying the potential contribution of asymptomatic screening and treatment to malaria control and elimination 
+description: INDIE
+weight: 1
+page-layout: article
+---
+
+Malaria continues to be a major global health concern and is responsible for more than 400,000 deaths annually with more than 90% in Sub-Saharan Africa. Symptoms of malaria are caused by asexual parasites, but malaria is passed from humans to mosquitoes by sexually-differentiated gametocytes. After repeat exposures, acquired immunity limits the density of asexual parasites and the likelihood of developing symptoms. One possible barrier to malaria elimination is the reservoir of chronic infections with asexual parasite densities too low to prompt treatment, but sufficient gametocytes to infect mosquitoes. Therefore, detecting and treating asymptomatic infections could reduce transmission and indirectly prevent deaths.
+
+Preliminary results from a clinical trial in Burkina Faso ([the INDIE trial](https://bmjopen.bmj.com/content/9/9/e030598.long)) suggest that regular screening, testing, and treatment (STT) interventions significantly reduce gametocyte density and infectivity to mosquitoes. However, the effect of STT on reducing transmission and preventing cases and deaths at the population level remains unknown. I propose to use agent-based modeling to predict the impact of STT if it were to be widely implemented as part of malaria control or elimination efforts.
+
+1.  First, I will use data from INDIE to build a detailed spatial model of the study site, calibrate within-host relationships between parasites, gametocytes, and infectivity, and validate the effect of STT on gametocyte density and infectivity.
+2.  Next, I will predict the impact of implementing universal STT for the entire INDIE study area on reducing malaria cases.
+    -   Since STT is resource-intensive, I will compare the effectiveness of implementing targeted STT in the INDIE study area, considering targeting by age group, limiting STT to the wet or dry season, and targeting STT to households with the highest mosquito exposure.
+    -   Using an archetypes approach and without considering other malaria interventions, I will make a back-of-the-envelope prediction of the impact of universal and targeted STT across all malaria-endemic Sub-Saharan Africa.
+3.  Finally, I will adapt existing models contextualized by intervention history to assess the impact and cost- effectiveness of targeted STT strategies in high-burden and near-elimination settings, compared to established interventions.
+
+The results of the proposed research will help policymakers decide if, when, and how to deploy STT to combat malaria. The F31 Ruth L. Kirschstein NRSA Individual Predoctoral Fellowship award will allow me to build my quantitative and research skills, improve my scientific writing and communication, and gain expertise in infectious disease epidemiology on the path toward becoming a successful independent investigator. In conducting the proposed research, I will integrate into a global network of malaria modelers and epidemiologists, gain familiarity with agent-based modeling, and make scientific contributions to the assessment of STT as a tool for malaria control and elimination. P

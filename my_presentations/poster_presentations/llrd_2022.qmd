@@ -1,0 +1,15 @@
+---
+title: "Inferring the effect of participant migration on outcomes from a clinical trial of malaria mass testing, treatment, and tracking interventions in Greater Accra, Ghana: an agent-based modeling study"
+author: 
+  - Tobias M. Holden
+description: Brief description.
+year: 2022
+doi: <doi>
+abstract: Abstract goes here.
+toc: true
+toc-depth: 5
+conference-event: Feinberg School of Medicine Lewis Landsberg Research Day
+style: Poster
+---
+
+![]()

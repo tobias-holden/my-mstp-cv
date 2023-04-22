@@ -4,18 +4,23 @@ title-block-style: default
 listing:
   - id: my-education
     type: grid
-    fields: [title, description, author]
+    fields: [title, description, author, image]
+    image-height: "1cm"
     sort: "description-desc"
     contents: my_education/*.qmd   # this will list every experience.qmd in the my_education folder
     grid-columns: 3
     page-size: 3
     
-  - id: my-projects
+  - id: my-research
     type: grid
     grid-columns: 3
     page-size: 3
-    contents: my_projects/*.qmd   # this will list every project.qmd in the my_projects folder
-    fields: [title, description, author]
+    contents: my_research/*.qmd   # this will list every experience.qmd in the my_research folder
+    fields: [title, description, author, image]
+    image-placeholder: images/light_purple.png
+    image-height: "1cm"
+    field-display-names: 
+      author: "Location"
     sort: 
       - "current desc"
       - "description desc"
@@ -25,15 +30,16 @@ listing:
     table-striped: true
     table-hover: true
     contents: my_publications/*.qmd 
-    page-size: 5
-    fields: [date, title, journal-name]
+    page-size: 3
+    fields: [date, title, journal-name, citations]
     field-display-names: 
       journal-name: "Journal"
       date: "Year"
-    filter-ui: [title, journal-name, author]
+      citations: "Cites"
+    filter-ui: false
     sort-ui: false
     date-format: "YYYY"
-    sort: "date-desc"
+    sort: "date desc"
     
   - id: my-oral-presentation-list
     type: table
@@ -41,10 +47,10 @@ listing:
     table-hover: true
     contents: my_presentations/oral_presentations/*.qmd
     fields: [year, title, conference-event]
-    filter-ui: [title, conference-event]
+    filter-ui: false
     sort-ui: false
-    sort: "year-desc"
-    page-size: 5
+    sort: "year desc"
+    page-size: 3
     field-display-names: 
       conference-event: "Conference/Event"
       year: "Year"
@@ -54,57 +60,32 @@ listing:
     table-striped: true
     table-hover: true
     contents: my_presentations/poster_presentations/*.qmd
-    fields: [date, title, conference-event]
-    filter-ui: [title, conference-event]
+    fields: [year, title, conference-event]
+    filter-ui: false
     sort-ui: false
-    page-size: 5
-    date-format: "YYYY"
-    sort: "date-desc"
+    page-size: 3
+    sort: "year desc"
     field-display-names: 
       conference-event: "Conference/Event"
-      date: "Year"
+      year: "Year"
   
   - id: my-grants-and-fellowships
     contents: grants_and_fellowships/*.qmd
     type: table
-    page-size: 5
+    page-size: 3
     sort-ui: false
     filter-ui: false
-    fields: [years, title, description]
+    fields: [years, type, title, description]
     field-display-names: 
       years: "Year(s)"
-      title: "Title"
+      title: "Grant or Fellowship"
+      type: "Type"
       description: "Source"
-    sort: years-desc
-      
-  - id: my-teaching-experiences
-    contents: teaching_and_mentoring/*.qmd
-    type: table
-    fields: [years, title, description]
-    field-display-names: 
-      description: "Subject or Program"
-      title: "Experience"
-      years: "Year(s)"
-    sort-ui: false
-    filter-ui: false
-    sort: years-desc
-    page-size: 5
-    
-  - id: my-work-experiences
-    contents: work_experiences/*.qmd
-    type: table
-    fields: [years, title, description]
-    field-display-names: 
-      description: "Location"
-      title: "Role"
-      years: "Year(s)"
-    sort: years-desc
-    sort-ui: false
-    filter-ui: false
-    page-size: 5
+    sort: "years desc"
     
   - id: my-awards-and-honors
-    contents: awards_and_honors/*.qmd
+    contents: 
+      - awards_and_honors/*.qmd
     type: table
     fields: [years, title, description]
     field-display-names: 
@@ -113,8 +94,26 @@ listing:
       description: "Source"
     sort-ui: false
     filter-ui: false
-    sort: years-desc
-    page-size: 5
+    sort: "years desc"
+    page-size: 3
+    
+  - id: all-my-activities
+    contents: 
+      - teaching_and_mentoring/*.qmd
+      - extracurricular/*.qmd
+    type: table
+    fields: [years, type, title, description]
+    field-display-names: 
+      years: "Year(s)"
+      type: "Category"
+      title: "Role"
+      description: " "
+    sort: 
+      - "current desc"
+      - "years desc"
+    page-size: 3
+    filter-ui: false
+    sort-ui: false
 
 format: 
   html: 
@@ -126,7 +125,7 @@ format:
 
 <h1>
 
-Firstname M. Lastname
+Tobias M. Holden
 
 ------------------------------------------------------------------------
 
@@ -134,11 +133,16 @@ Firstname M. Lastname
 
 </h1>
 
+I am a MD/PhD student in the Northwestern University Medical Scientist Training Program. In my PhD research I have applied high-performance computing and mathematical modeling to study COVID-19 and malaria epidemiology. I am interested in using modeling and analytics to inform decision-making for public health.\
+[[tobias.holden\@northwestern.edu](mailto:tobias.holden@northwestern.edu)]{.aside} [**Languages Spoken** <br> \| English (fluent) <br> \| Spanish (professional)]{.aside}
+
 <center>
 
 ### [**Education**]{.smallcaps}
 
 </center>
+
+[**Non-Degree** <br> [NIH PREP \@ ISMMS](sinai_prep.qmd) (Postbac) <br> <br> **Pre-College** <br> SC Governor's School for Science and Mathematics]{.aside}
 
 ::: {#my-education}
 :::
@@ -149,8 +153,12 @@ Firstname M. Lastname
 
 </center>
 
-::: {#my-projects}
+[**Skills** <br> \| Mathematical Modeling <br> \| GIS <br> \| High-Performance Computing <br> \| Biostatistics <br> \| Data Analysis <br> \| Data Visualization <br> \| App Development <br>]{.aside} [<br>**Programming Languages** <br> \| *R* <br> \| Python <br> \| Matlab <br> \| HTML <br> \| Linux]{.aside}
+
+::: {#my-research}
 :::
+
+[<br> **Professional Affiliations** <br><br> \| [ACM Special Interest Group on High-Performance Computing](https://www.sighpc.org/) <br><br> \| [American Physician Scientists Association](https://www.physicianscientists.org/) <br><br> \| [American Society of Tropical Medicine & Hygiene](https://astmh.org) <br><br> \| [Applied Malaria Modeling Network](https://ammnetwork.org) <br><br> \| [Models of Infectious Disease Agent Study Network](https://midasnetwork.us/) <br><br> \| [NIH National Institute of Allergy and Infectious Disease](https://www.niaid.nih.gov/) <br><br> \| [NU Malaria Modeling](https://www.numalariamodeling.org/) <br><br> \| [NU Medical Scientist Training Program](https://www.feinberg.northwestern.edu/sites/mstp/)]{.aside}
 
 ::: panel-tabset
 ## Publications
@@ -167,11 +175,6 @@ Firstname M. Lastname
 
 ::: {#my-poster-presentation-list}
 :::
-
-## Grants/Fellowships
-
-::: {#my-grants-and-fellowships}
-:::
 :::
 
 <center>
@@ -180,15 +183,17 @@ Firstname M. Lastname
 
 </center>
 
-::: panel-tabset
-## Teaching & Mentorship
+[<br> **Hobbies & Other Passions** <br> \| Film & Digital Photography <br> \| Hiking <br> \| Rollerblading <br> \| Trivia <br> \| Film Criticism]{.aside}
 
-::: {#my-teaching-experiences}
+::: panel-tabset
+## Grants & Fellowships
+
+::: {#my-grants-and-fellowships}
 :::
 
-## Work Experience
+## Professional Activities
 
-::: {#my-work-experiences}
+::: {#all-my-activities}
 :::
 
 ## Awards & Honors

@@ -1,0 +1,55 @@
+---
+title: "COVID-19 Surveillance and Racial/Ethnic Disparities 🫁"
+author: Northwestern University Department of Preventive Medicine
+description: "2020 - 2022 <br> *PhD Rotation* with Dr. Jaline Gerardin"
+current: 0
+page-layout: article
+image: ../images/light_purple.png
+listing: 
+  - id: covid_disparities
+    contents: 
+      - ../my_publications/covid_testing*.qmd
+      - ../my_publications/covid_disparities*.qmd
+    type: grid
+    grid-columns: 2
+    page-size: 2
+    image-height: "1cm"
+    fields: [title, description, journal-name, date, image]
+    field-display-names: 
+      journal-name: "Published in" 
+    sort: date desc
+  - id: covid_surveillance
+    contents: 
+      - ../my_publications/covid_sentinel*.qmd
+      - ../my_publications/covid_icu*.qmd
+    type: grid
+    grid-columns: 2
+    page-size: 4
+    image-height: "1cm"
+    fields: [title, description, journal-name, date, image]
+    field-display-names: 
+      journal-name: "Published in" 
+    sort: date desc
+  
+format:
+  html:
+    toc: true
+---
+
+In 2020-21, Dr. Jaline Gerardin's team was a member of the Illinois COVID-19 Modeling Task Force, which contributed analyses and forecasts to Illinois and Chicago to support public health response.
+
+-   I led analyses of racial/ethnic disparities in COVID-19 in Illinois, beginning during my rotation in Dr. Gerardin's lab in May 2020 and continuing on a part-time basis while I completed my second year of medical school.
+-   I co-led work on characterizing heterogeneity in diagnostic testing, and I contributed to parameterizing a mathematical model of SARS-CoV-2 transmission that was used for weekly forecasting.
+-   I represented our modeling team in bi-weekly meetings of the Illinois Department of Public Health's Data Equity Working Group.
+
+My work has been used to inform the direction of mobile testing units to underserved communities in Illinois and will continue to be used to probe drivers of disparities in COVID-19 exposure and mortality.
+
+### Disparities in COVID-19 testing and disease burden
+
+::: {#covid_disparities}
+:::
+
+### COVID-19 Surveillance and Forecasting
+
+::: {#covid_surveillance}
+:::

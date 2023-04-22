@@ -1,37 +1,29 @@
 ---
-title: "Firstname M. Lastname"
+title: "Tobias M. Holden"
 about:
   template: jolla
   image-shape: round
-  image: images/silhouette.png
+  image: images/northwestern_logo.png
   links:
     - icon: twitter
       text: twitter
-      href: https://twitter.com
+      href: https://twitter.com/tobiasmholden
     - icon: linkedin
       text: linkedin
-      href: https://linkedin.com
+      href: www.linkedin.com/in/tobiasholden1017
     - icon: github
       text: github
-      href: https://github.com
+      href: https://github.com/tobias-holden
     - icon: mortarboard-fill
       text: scholar
-      href: https://scholar.google.com
+      href: https://scholar.google.com/citations?user=wK3JrXUAAAAJ&hl=en
 format: 
   html:
     page-layout: article
 ---
-> "In examining disease, we gain wisdom about anatomy and physiology and biology. In examining the person with disease, we gain wisdom about life."\
-> ― **Oliver W. Sacks**
 
-[**M.D. Doctor of Medicine**]{style="float:left"} [Start - End\*]{style="float:right"} <br> [Northwestern University]{style="float:left"} <br> [**Ph.D. Graduate Program**]{style="float:left"} [Start - End\*]{style="float:right"} <br> [Northwestern University]{style="float:left"} <br> [**B.S. Undergraduate Major**]{style="float:left"} [Start - End]{style="float:right"} <br> [College University]{style="float:left"}<br>
+------------------------------------------------------------------------
 
+I am a **MD/PhD student** @ *Northwestern University Medical Scientist Training Program*. In my PhD research, I have applied high-performance computing and mathematical modeling to study COVID-19 and malaria epidemiology. In addition to training through the MSTP, I am a **Predoctoral Research Fellow** @ *NIH National Institute of Allergy and Infectious Disease* and a **Computational & Data Science Fellow** @ *ACM Special Interest Group on HPC*
 
-#### Announcements
-
-
-::: callout-important
-## Add a callout
-If you have anything new or exciting you want to announce on the landing page!
-:::
-
+[**M.D. Doctor of Medicine**]{style="float:left"} [2019 - 2027\*]{style="float:right"} <br> [*Northwestern University MSTP*]{style="float:left"} <br> [**Ph.D. Health & Biomedical Informatics**]{style="float:left"} [2021 - 2025\*]{style="float:right"} <br> [*Northwestern University MSTP*]{style="float:left"} <br> [**B.S. Molecular, Cellular, and Developmental Biology (Quantitative)**]{style="float:left"} [2013 - 2017]{style="float:right"} <br> [*Yale University*]{style="float:left"}<br>

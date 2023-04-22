@@ -1,0 +1,20 @@
+---
+title: "An important role of Pumilio 1 in regulating the development of the mammalian female germline"
+author:
+  - Winifred Mak
+  - Caodi Fang
+  - "**Tobias Holden**"
+  - Milana Bockhur Dratver
+  - Haifan Lin
+date: 2016-06-01
+doi: https://doi.org/10.1095/biolreprod.115.137497
+abstract: "Pumilio/FBF (PUF) proteins are a highly conserved family of translational regulators. The Drosophila PUF protein, Pumilio, is crucial for germline establishment and fertility. In mammals, primordial folliculogenesis is a key process that establishes the initial cohort of female mammalian germ cells prior to birth, and this primordial follicle pool is a prerequisite for female reproductive competence. We sought to understand whether PUF proteins have a conserved role in mammals during primordial folliculogenesis and female reproductive competency. In mammals, two homologs of Pumilio exist: Pumilio 1 (Pum1) and Pum2. Here, we report that PUMILIO (PUM) 1 plays an important role in the establishment of the primordial follicle pool, meiosis, and female reproductive competency, whereas PUM2 does not have a detectable function in these processes. Furthermore, we show that PUM1 facilitates the transition of the late meiotic prophase I oocyte from pachytene to diplotene stage by regulating SYCP1 protein. Our study reveals an important role of translational regulation in mammalian female germ cell development."
+toc: true
+toc-depth: 5
+journal-name: Biology of Reproduction
+page-layout: article
+image: ../images/yale_blue.jpeg
+citations: 64
+---
+
+![]()

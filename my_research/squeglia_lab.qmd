@@ -1,0 +1,17 @@
+---
+title: "Adolescent Brain & Cognitive Development 🧠"
+author: Medical University of South Carolina
+description: "2018 - 2019 <br> *Research Assistant* with Dr. Lindsay Squeglia"
+toc: true
+toc-depth: 5
+current: 0
+image: ../images/gold.png
+page-layout: article
+---
+
+From 2018 to 2019, I worked at the Medical University of South Carolina in the Addiction Sciences Division with Dr. Lindsay Squeglia PhD and Dr. Kevin Gray MD on the [Adolescent Brain Cognitive Development Study](), a nationwide longitudinal study. I was responsible for conducting the study protocol with 9- to 11-year-old participants, including:
+
+-   Recording structural and functional MRI images
+-   Collecting biospecimen samples
+-   Running toxicology assays
+-   Administering neurocognitive assessments, environmental questionanaires, and mental health screenings

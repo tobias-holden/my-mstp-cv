@@ -1,0 +1,13 @@
+---
+title: "Agent-Based Modeling of Malaria Transmission 🦟"
+author: Northwestern University Institute for Global Health
+description: "2021 - <br> *PhD Student* with Dr. Jaline Gerardin"
+current: 1
+listing: 
+  type: grid
+  grid-columns: 1
+  contents: gerardin_malaria_projects/*.qmd
+  sort: weight
+page-layout: article
+image: ../images/purple.png
+---

@@ -1,0 +1,14 @@
+---
+title: "Lentiviral induction of trophoblast stem cells"
+author: Tobias M. Holden
+description: Brief description.
+year: 2015
+doi: <doi>
+abstract: Abstract
+toc: true
+toc-depth: 5
+conference-event: Yale University STARS Summer Research Symposium
+style: Oral
+---
+
+![]()

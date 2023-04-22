@@ -1,0 +1,9 @@
+---
+title: Data Equity Working Group Member
+years: "2020 - 2022"
+description: Illinois Department of Public Health
+current: 0
+type: Data Science
+---
+
+![]()

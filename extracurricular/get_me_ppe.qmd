@@ -1,0 +1,9 @@
+---
+title: Volunteer Data Analyst
+years: "2020"
+description: "#GetMePPE Chicago (COVID-19 Response non-profit)"
+current: 0
+type: Data Science
+---
+
+![]()

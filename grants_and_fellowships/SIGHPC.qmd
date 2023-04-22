@@ -1,0 +1,15 @@
+---
+title: Computational & Data Science Fellowship
+years: "2022-2025"
+description: ACM SIGHPC
+type: Fellowship
+page-layout: article
+---
+
+In 2015 Intel announced it would provide \$1.5M in funding over five years to increase the diversity of students pursuing graduate degrees in data science and computational science. The ACM SIGHPC/Intel Computational and Data Science Fellowships were the result of Intel's commitment to this community. Specifically targeted at women or students from racial/ethnic backgrounds that have not traditionally participated in the computing field, the program was open to students pursuing degrees at institutions anywhere in the world. The fellowships are highly competitive, and are awarded after a rigorous merit review. The fellowship program, previously funded by Intel, is now funded exclusively by SIGHPC. **I was named one of eleven fellowship recipients for 2022.**
+
+The program is intended to increase the diversity of students pursuing graduate degrees in data science and computational science, including women as well as students from racial/ethnic backgrounds that have been historically underrepresented in the computing field. The fellowship provides \$15,000 annually for study anywhere in the world.
+
+Students were nominated by their graduate advisors*.* Nominees spanned disciplines from biomedical engineering and computer science to quantum chemistry and geophysics, and represented large, mid-sized, and small institutions in countries around the world. More than 90% of nominees were female, and 45% were identified as an underrepresented minority in their country of study.
+
+The nominations were evaluated and ranked by a panel of experts (who were themselves diverse with respect to race, gender, discipline, and nationality) **based on nominees' overall potential for excellence in data science and/or computational science, and the extent to which they will serve as leaders and role models to increase diversity in the workplace.**

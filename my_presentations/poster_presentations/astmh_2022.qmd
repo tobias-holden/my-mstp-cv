@@ -1,0 +1,15 @@
+---
+title: "Recalibration of Within-Host Parameters in an Agent Based Malaria Transmission Model Based on the INDIE-1a Trial"
+author: 
+  - Tobias M. Holden
+description: Brief description.
+year: 2022
+doi: <doi>
+abstract: Abstract goes here.
+toc: true
+toc-depth: 5
+conference-event: American Society of Tropical Medicine and Hygiene Annual Meeting
+style: Poster
+---
+
+![]()

@@ -1,0 +1,9 @@
+---
+title: Co-Founder
+years: "2020 - 2021"
+description: Generation NU (1st-Generation Support Group)
+current: 0
+type: Leadership
+---
+
+![]()

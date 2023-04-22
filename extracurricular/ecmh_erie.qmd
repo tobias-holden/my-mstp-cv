@@ -1,0 +1,9 @@
+---
+title: Student Doctor in ECMH
+years: "2019 - 2023"
+description: Erie Family Health Center - Humboldt Park
+current: 1
+type: Clinical
+---
+
+![]()

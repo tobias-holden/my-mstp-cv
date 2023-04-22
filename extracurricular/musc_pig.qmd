@@ -1,0 +1,9 @@
+---
+title: Pathology Informatics Group Member 
+years: "2018 - 2019"
+description: Medical University of South Carolina
+current: 0
+type: Data Science
+---
+
+![]()

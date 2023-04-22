@@ -1,0 +1,11 @@
+---
+title: Simulating mass deployment of ultrasensitive vs. conventional malaria rapid diagnostic tests in Greater Accra, Ghana
+description: Nxtek
+weight: 3
+page-layout: article
+---
+
+In 2021, Dr. Gerardin and I began a collaboration with Dr. Linda Amoah at the University of Ghana in Accra to create a simulation model of a clinical trial her team led in two villages within the Greater Accra area. The trial assessed the relative effectiveness and cost-effectiveness of standard vs. ultrasensitive rapid diagnostic tests for *P. falciparum malaria* under a mass testing, treatment, and tracking (MTTT) strategy. 
+
+* To simulate the trial, I built a spatial model of the study villages, with transmission intensity calibrated to achieve observed malaria incidence and prevalence at the start and end of the trial, and modeled RDTs based off their performance relative to gold standard PCR in the trial.   
+* By incorporating human movement into the model, I found that anomalous mass migration in 2020 could have diminished the effect size of MTTT interventions in the study by 50-60%.   

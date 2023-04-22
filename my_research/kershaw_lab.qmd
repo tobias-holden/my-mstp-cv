@@ -1,0 +1,12 @@
+---
+title: "Agent-Based Modeling of Food Choice and Obesity Disparities 🛒"
+author: Northwestern University Department of Preventive Medicine
+description: "2019 <br> *PhD Rotation* with Dr. Kiarri Kershaw"
+toc: true
+toc-depth: 5
+current: 0
+image: ../images/light_purple.png
+page-layout: article
+---
+
+Obesity is a major risk factor for several cardiovascular disease (CVD) risk factors including hypertension, diabetes, and dyslipidemia. Non-Hispanic black and Hispanic women are substantially more likely to be obese than their non-Hispanic white counterparts. Thus, identifying effective strategies for reducing obesity is critical to alleviate disparities in obesity and related adverse cardiopulmonary and sleep outcomes facing black and Hispanic women in the U.S. An agent-based model of a food-choice environment was built using in Python. Agents modeled were individuals with unique dietary preferences and eating establishments of varied price and healthfulness. Early simulations were able to reproduce disparities in diet quality between low- and high-income households observed in previous food-choice models when individual food choices were weighted according to preliminary data on meal preferences. Future work will involve updating the model to represent different Chicagoland community areas, and to include a physiological representation of weight gain/loss related to meal choices. Ultimately, a robust agent-based model can be used to simulate public health interventions aimed at reducing obesity by modifying diet behaviors or regulating eating establishments.

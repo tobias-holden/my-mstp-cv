@@ -1,0 +1,14 @@
+---
+title: "Better Together? Diversity and collective migration of *E. coli* in semi-solid agar"
+author: Tobias M. Holden
+description: Brief description.
+year: 2017
+doi: <doi>
+abstract: Abstract
+toc: true
+toc-depth: 5
+conference-event: Trumbull College Mellon Forum
+style: Oral
+---
+
+![]()

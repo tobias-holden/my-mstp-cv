@@ -1,0 +1,9 @@
+---
+title: Orientation Trip Leader
+years: "2015 - 2016"
+description: First-Year Outdoor Oorientation Trips (FOOT) at Yale
+current: 0
+type: "Mentorship"
+---
+
+![]()

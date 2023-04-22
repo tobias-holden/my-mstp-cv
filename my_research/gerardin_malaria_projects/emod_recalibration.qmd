@@ -1,0 +1,6 @@
+---
+title: Multi-objective recalibration of the complex agent-based malaria transmission model, EMOD
+description: Emulator-bayed Bayesian optimization framework
+weight: 2
+page-layout: article
+---

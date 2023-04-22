@@ -1,0 +1,19 @@
+---
+title: "Structural racism and COVID-19 response: higher risk of exposure drives disparate COVID-19 deaths among Black and Hispanic/Latinx residents of Illinois, USA"
+author:
+  - "**Tobias M. Holden**"
+  - Melissa A. Simon
+  - Damon T. Arnold
+  - Veronica Halloway
+  - Jaline Gerardin
+date: 2022-02-15
+doi: https://doi.org/10.1186/s12889-022-12698-9
+abstract: "Structural racism has driven and continues to drive policies that create the social, economic, and community factors resulting in residential segregation, lack of access to adequate healthcare, and lack of employment opportunities that would allow economic mobility. This results in overall poorer population health for minoritized people. In 2020, Black and Hispanic/Latinx communities throughout the United States, including the state of Illinois, experienced disproportionately high rates of COVID-19 cases and deaths. Public health officials in Illinois implemented targeted programs at state and local levels to increase intervention access and reduce disparities. To quantify how disparities in COVID outcomes evolved through the epidemic, data on SARS-CoV-2 diagnostic tests, COVID-19 cases, and COVID-19 deaths were obtained from the Illinois National Electronic Disease Surveillance System for the period from March 1 to December 31, 2020. Relative risks of COVID-19 cases and deaths were calculated for Black and Hispanic/Latinx vs. White residents, stratified by age group and epidemic interval. Deaths attributable to racial/ethnic disparities in incidence and case fatality were estimated with counterfactual simulations."
+toc: true
+toc-depth: 5
+journal-name: BMC Public Health
+image: ../../images/light_purple.png
+
+page-layout: article
+citations: 23
+---

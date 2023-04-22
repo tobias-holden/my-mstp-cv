@@ -6,42 +6,43 @@ project:
 #################
 website:
   # True website title displayed on browser tabs, in searches, etc.
-  title: MSTP Template  
-  page-footer: "© or other footer information to display on every page"
+  title: Tobias M. Holden 
+  favicon: images/purple.png
+  page-footer: "© Tobias M. Holden 2023"
   # Website Navigation
   ####################
   sidebar:
     # Sidebar style options 
     style: floating     # "floating" or "docked"
     foreground: light   # sidebar text color
-    background: "#593196"     # sidebar background color
+    background: primary # sidebar background color
     # Top
-    logo: images/northwestern_logo.png  
-    title: First M. Last
-    header: "Header here"    
+    logo: images/northwestern_logo.png 
+    title: Tobias M. Holden
+    header: ""    
     # Social / scholar links in sidebar
     ###################################
     tools: 
       - icon: twitter
         text: twitter
-        href: https://twitter.com
+        href: https://twitter.com/tobiasmholden
       - icon: linkedin
         text: linkedin
-        href: https://linkedin.com
+        href: www.linkedin.com/in/tobiasholden1017
       - icon: github
         text: github
-        href: https://github.com
+        href: https://github.com/tobias-holden
       - icon: mortarboard-fill
         text: scholar
-        href: https://scholar.google.com
+        href: https://scholar.google.com/citations?user=wK3JrXUAAAAJ&hl=en
     search: true        # include site-wide search?
     # Sidebar Contents
     ##################
     # Shows only the index.qmd by default
     contents: 
-      - text: "Full CV"
-        href: cv.qmd      
-    footer: "*Footer text goes here*"
+      - text: "CURRICULUM VITAE"
+        href: cv.qmd
+            
 # Theme Options
 ###############
 format:

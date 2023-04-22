@@ -1,0 +1,14 @@
+---
+title: "Recalibration of a mathematical model of malaria transmission with parasite and infectivity data from Burkina Faso"
+author: Tobias M. Holden
+description: "Lightning Talk"
+year: 2022
+doi: <doi>
+abstract: Abstract
+toc: true
+toc-depth: 5
+conference-event: Johns Hopkins University World Malaria Day
+style: Oral
+---
+
+![]()

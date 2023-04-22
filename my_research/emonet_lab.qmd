@@ -1,0 +1,12 @@
+---
+title: "Quantifying Heterogeneity in Collective Bacterial Migration 🔬"
+author: Yale University Department of MCDB
+description: "2016 - 2017 <br> *B.S. Thesis* with Dr. Theirry Emonet"
+toc: true
+toc-depth: 5
+current: 0
+page-layout: article
+image: ../images/yale_blue.jpeg
+---
+
+In my senior year of college, I started a new project in Dr. Thierry Emonet’s lab on the role of non-genetic heterogeneity in collective behavior.  We used the model system of *E. coli* to observe the relationship between variation in the population distribution of individual swimming phenotypes and the speed of collective migration for groups of bacteria. I cultured bacteria and recorded both collective and single-cell swimming patterns, which were then used to adjust a computational model of bacterial chemotaxis in MATLAB. 

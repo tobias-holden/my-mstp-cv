@@ -1,0 +1,18 @@
+---
+title: "Computational Modeling of Stem Cell-Derived Cardiomyocytes 🫀"
+author: ISMMS Department of Pharmacological Sciences
+description: "2017 - 2018 <br> *NIH PREP Scholar* with Dr. Eric Sobie"
+toc: true
+toc-depth: 5
+current: 0
+image: ../images/ismms_blue.png
+page-layout: article
+---
+
+From 2017 to 2018, I was an NIH Post-Baccalaureate Research Education Program (PREP) Scholar at the Icahn School of Medicine in the lab of Dr. Eric Sobie, PhD. The laboratory employed mathematical models and computational simulations to quantitatively understand the molecular mechanisms behind cardiac physiology. One area of interest was improving prediction of arrhythmogenic risk in drug safety screening, where overestimation of risk shelves potentially therapeutic drugs, but underestimation can be lethal.
+
+I optimized existing mathematical models to capture the special electrophysiology of human induced pluripotent stem cell-derived cardiomyocytes (hiPS-CMs). Generating a working model of patient-derived hiPS-CMs would be a promising step toward personalized arrhythmia risk-assessment, the goal of the FDA's Comprehensive In Vitro Proarrhythmia Assay initiative.
+
+-   I compared the *in silico* behavior of the established hiPS-CM model with *in vitro* patch-clamp data. I modified the model to include temperature sensitive effects on ion channel kinetics and to accommodate slower pacing. The updated model more accurately predicted the effects of test drugs on cell action potentials and ion handling.
+
+-   I built a prototype application using RShiny to make it much easier to customize parameters, run simulations, compute metrics, and visualize results, all in one place. The application improved reproducibility and provided a platform through which collaborators could more effectively make use of each other's data and findings.

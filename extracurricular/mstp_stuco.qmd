@@ -1,0 +1,9 @@
+---
+title: Co-President
+years: "2021 - 2022"
+description: MSTP Student Council
+current: 0
+type: Leadership
+---
+
+![]()

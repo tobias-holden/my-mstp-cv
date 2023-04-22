@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MSTP Template -</title>
+<title>Tobias M. Holden -</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/purple.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -70,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-author','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -91,21 +92,21 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-my-projects .list');
+    const listingTargetEl = window.document.querySelector('#listing-my-research .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-author','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-my-projects'] = new List('listing-my-projects', options);
+    window['quarto-listings']['listing-my-research'] = new List('listing-my-research', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -127,9 +128,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-journal-name',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-journal-name","listing-author"],
+      valueNames: ['listing-date','listing-title','listing-journal-name','listing-citations',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -156,8 +158,9 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-year','listing-title','listing-conference-event',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-conference-event"],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -183,9 +186,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-conference-event',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-conference-event"],
+      valueNames: ['listing-year','listing-title','listing-conference-event',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -211,69 +215,14 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-years','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
+      valueNames: ['listing-years','listing-type','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-my-grants-and-fellowships'] = new List('listing-my-grants-and-fellowships', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-my-teaching-experiences .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-years','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-my-teaching-experiences'] = new List('listing-my-teaching-experiences', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-my-work-experiences .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-years','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-my-work-experiences'] = new List('listing-my-work-experiences', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -296,12 +245,42 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-years','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-my-awards-and-honors'] = new List('listing-my-awards-and-honors', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-all-my-activities .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-years','listing-type','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-all-my-activities'] = new List('listing-all-my-activities', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -320,13 +299,13 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Firstname Lastname</h1>
+      <h1 class="quarto-secondary-nav-title">Tobias M. Holden</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -336,20 +315,18 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
-<p>Header here</p>
-</div></div>
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./images/northwestern_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Firstname Lastname</a> 
+      <a href="./">Tobias M. Holden</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://twitter.com" title="twitter" class="sidebar-tool px-1"><i class="bi bi-twitter"></i></a>
-    <a href="https://linkedin.com" title="linkedin" class="sidebar-tool px-1"><i class="bi bi-linkedin"></i></a>
-    <a href="https://github.com" title="github" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="https://scholar.google.com" title="scholar" class="sidebar-tool px-1"><i class="bi bi-mortarboard-fill"></i></a>
+    <a href="https://twitter.com/tobiasmholden" title="twitter" class="sidebar-tool px-1"><i class="bi bi-twitter"></i></a>
+    <a href="./www.linkedin.com/in/tobiasholden1017" title="linkedin" class="sidebar-tool px-1"><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/tobias-holden" title="github" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://scholar.google.com/citations?user=wK3JrXUAAAAJ&amp;hl=en" title="scholar" class="sidebar-tool px-1"><i class="bi bi-mortarboard-fill"></i></a>
 </div>
     </div>
       </div>
@@ -362,55 +339,63 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./cv.html" class="sidebar-item-text sidebar-link active">Full CV</a>
+  <a href="./cv.html" class="sidebar-item-text sidebar-link active">CURRICULUM VITAE</a>
   </div>
 </li>
     </ul>
     </div>
-<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
-<p><em>Footer text goes here</em></p>
-</div></div></nav>
+</nav>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
 <center>
 <h1>
-<p>Firstname M. Lastname</p>
+<p>Tobias M. Holden</p>
 <hr>
 </h1></center>
 
+<div class="page-columns page-full"><p>I am a MD/PhD student in the Northwestern University Medical Scientist Training Program. In my PhD research I have applied high-performance computing and mathematical modeling to study COVID-19 and malaria epidemiology. I am interested in using modeling and analytics to inform decision-making for public health.<br>
+ </p><div class="no-row-height column-margin column-container"><span class=""><a href="mailto:tobias.holden@northwestern.edu">tobias.holden@northwestern.edu</a></span><span class=""><strong>Languages Spoken</strong> <br> | English (fluent) <br> | Spanish (professional)</span></div></div>
 <center>
 <section id="education" class="level3">
 <h3 class="anchored" data-anchor-id="education"><span class="smallcaps"><strong>Education</strong></span></h3>
 </section></center>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><strong>Non-Degree</strong> <br> <a href="./sinai_prep.html">NIH PREP @ ISMMS</a> (Postbac) <br> <br> <strong>Pre-College</strong> <br> SC Governor’s School for Science and Mathematics</span></div></div>
 <div id="listing-my-education" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681806555621" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681994880776" data-listing-reading-time-sort="0.05">
 <a href="./my_education/graduate_school.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/purple.png" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Ph.D.
 </h5>
 <div class="card-text listing-description">
-2021 - <br> Graduate Program
+2021 - <br> Health &amp; Biomedical Informatics
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-Northwestern Uinversity MSTP
+Northwestern University MSTP
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1681802051241" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1682003343800" data-listing-reading-time-sort="0.21">
 <a href="./my_education/medical_school.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/light_purple.png" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 M.D.
@@ -427,19 +412,22 @@ Northwestern University MSTP
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1681802118995" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1682036196609" data-listing-reading-time-sort="0.49">
 <a href="./my_education/undergrad.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/yale_blue.jpeg" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 B.S.
 </h5>
 <div class="card-text listing-description">
-2013 - 2017 <br> Undergraduate Major
+2013 - 2017 <br> Molecular, Cellular, and Developmental Biology
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-College Name
+Yale University
 </div>
 </div>
 </div>
@@ -456,78 +444,157 @@ No matching items
 <section id="research" class="level3">
 <h3 class="anchored" data-anchor-id="research"><span class="smallcaps"><strong>Research</strong></span></h3>
 </section></center>
-<div id="listing-my-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="page-columns page-full"><p> </p><div class="no-row-height column-margin column-container"><span class=""><strong>Skills</strong> <br> | Mathematical Modeling <br> | GIS <br> | High-Performance Computing <br> | Biostatistics <br> | Data Analysis <br> | Data Visualization <br> | App Development <br></span><span class=""><br><strong>Programming Languages</strong> <br> | <em>R</em> <br> | Python <br> | Matlab <br> | HTML <br> | Linux</span></div></div>
+<div id="listing-my-research" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681793845709" data-listing-reading-time-sort="0.075">
-<a href="./my_projects/project_2.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1681967282742" data-listing-reading-time-sort="0.005">
+<a href="./my_research/gerardin_malaria.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/purple.png" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Project Title
+Agent-Based Modeling of Malaria Transmission 🦟
 </h5>
 <div class="card-text listing-description">
-2020 - Now <br> <em>Role</em> with Dr.&nbsp;Advisor Mentor
+2021 - <br> <em>PhD Student</em> with Dr.&nbsp;Jaline Gerardin
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-Institution or Location
+Northwestern University Institute for Global Health
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1681793849583" data-listing-reading-time-sort="0.075">
-<a href="./my_projects/project_4.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1682003776875" data-listing-reading-time-sort="0.78">
+<a href="./my_research/gerardin_covid.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/light_purple.png" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Project Title
+COVID-19 Surveillance and Racial/Ethnic Disparities 🫁
 </h5>
 <div class="card-text listing-description">
-2022 <br> <em>Role</em> with Dr.&nbsp;Advisor Mentor
+2020 - 2022 <br> <em>PhD Rotation</em> with Dr.&nbsp;Jaline Gerardin
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-Institution or Location
+Northwestern University Department of Preventive Medicine
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1681793846911" data-listing-reading-time-sort="0.075">
-<a href="./my_projects/project_3.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1681993798032" data-listing-reading-time-sort="0.88">
+<a href="./my_research/kershaw_lab.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/light_purple.png" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Project Title
+Agent-Based Modeling of Food Choice and Obesity Disparities 🛒
 </h5>
 <div class="card-text listing-description">
-2021 - 2022 <br> <em>Role</em> with Dr.&nbsp;Advisor Mentor
+2019 <br> <em>PhD Rotation</em> with Dr.&nbsp;Kiarri Kershaw
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-Institution or Location
+Northwestern University Department of Preventive Medicine
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1681793848220" data-listing-reading-time-sort="0.075">
-<a href="./my_projects/project_1.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1681965972351" data-listing-reading-time-sort="0.41">
+<a href="./my_research/squeglia_lab.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./images/gold.png" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Project Title
+Adolescent Brain &amp; Cognitive Development 🧠
 </h5>
 <div class="card-text listing-description">
-2018 - 2019 <br> <em>Role</em> with Dr.&nbsp;Advisor Mentor
+2018 - 2019 <br> <em>Research Assistant</em> with Dr.&nbsp;Lindsay Squeglia
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
-Institution or Location
+Medical University of South Carolina
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1681966574661" data-listing-reading-time-sort="1.1">
+<a href="./my_research/sobie_lab.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./images/ismms_blue.png" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Computational Modeling of Stem Cell-Derived Cardiomyocytes 🫀
+</h5>
+<div class="card-text listing-description">
+2017 - 2018 <br> <em>NIH PREP Scholar</em> with Dr.&nbsp;Eric Sobie
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+ISMMS Department of Pharmacological Sciences
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1681966731600" data-listing-reading-time-sort="0.42">
+<a href="./my_research/emonet_lab.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./images/yale_blue.jpeg" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Quantifying Heterogeneity in Collective Bacterial Migration 🔬
+</h5>
+<div class="card-text listing-description">
+2016 - 2017 <br> <em>B.S. Thesis</em> with Dr.&nbsp;Theirry Emonet
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Yale University Department of MCDB
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1681966776123" data-listing-reading-time-sort="0.67">
+<a href="./my_research/mak_lab.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./images/yale_blue.jpeg" class="thumbnail-image card-img" style="height: 1cm;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Reproductive Stem Cell Biology 🧫
+</h5>
+<div class="card-text listing-description">
+2015 - 2016 <br> <em>STARS Fellow</em> with Dr.&nbsp;Winifred Mak
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Yale University Stem Cell Center
 </div>
 </div>
 </div>
@@ -538,21 +605,16 @@ Institution or Location
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="my-projects-pagination" class="listing-pagination" aria-label="Page Navigation">
+<nav id="my-research-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
 </div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><br> <strong>Professional Affiliations</strong> <br><br> | <a href="https://www.sighpc.org/">ACM Special Interest Group on High-Performance Computing</a> <br><br> | <a href="https://www.physicianscientists.org/">American Physician Scientists Association</a> <br><br> | <a href="https://astmh.org">American Society of Tropical Medicine &amp; Hygiene</a> <br><br> | <a href="https://ammnetwork.org">Applied Malaria Modeling Network</a> <br><br> | <a href="https://midasnetwork.us/">Models of Infectious Disease Agent Study Network</a> <br><br> | <a href="https://www.niaid.nih.gov/">NIH National Institute of Allergy and Infectious Disease</a> <br><br> | <a href="https://www.numalariamodeling.org/">NU Malaria Modeling</a> <br><br> | <a href="https://www.feinberg.northwestern.edu/sites/mstp/">NU Medical Scientist Training Program</a></span></div></div>
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Publications</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Talks</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Posters</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Grants/Fellowships</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Publications</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Talks</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Posters</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div id="listing-my-publication-list" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 
 <table class="quarto-listing-table table table-striped table-hover">
 <thead>
@@ -566,19 +628,85 @@ Title
 <th>
 Journal
 </th>
+<th>
+Cites
+</th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1672552800000" data-listing-file-modified-sort="1681788911848" data-listing-reading-time-sort="0.005" data-listing-title-sort="Title of the publication" data-listing-filename-sort="publication_template.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="0" data-listing-date-sort="1663822800000" data-listing-file-modified-sort="1682034973360" data-listing-reading-time-sort="0.005" data-listing-title-sort="Tracking changes in SARS-CoV-2 transmission with a novel outpatient sentinel surveillance system in Chicago, USA" data-listing-filename-sort="covid_sentinel_surveillance_paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td class="listing-date">
-2023
+2022
 </td>
 <td class="listing-title">
-<a href="./my_publications/publication_template.html" class="title">Title of the publication</a>
+<a href="./my_publications/covid_sentinel_surveillance_paper.html" class="title">Tracking changes in SARS-CoV-2 transmission with a novel outpatient sentinel surveillance system in Chicago, USA</a>
 </td>
 <td class="listing-journal-name">
-Journal Name
+Nature Communications
+</td>
+<td class="listing-citations">
+1
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1651726800000" data-listing-file-modified-sort="1682034952965" data-listing-reading-time-sort="0.005" data-listing-title-sort="Modeling robust COVID-19 intensive care unit occupancy thresholds for imposing mitigation to prevent exceeding capacities" data-listing-filename-sort="covid_icu_threshold_paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-date">
+2022
+</td>
+<td class="listing-title">
+<a href="./my_publications/covid_icu_threshold_paper.html" class="title">Modeling robust COVID-19 intensive care unit occupancy thresholds for imposing mitigation to prevent exceeding capacities</a>
+</td>
+<td class="listing-journal-name">
+PLoS Global Public Health
+</td>
+<td class="listing-citations">
+4
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1644904800000" data-listing-file-modified-sort="1682034966327" data-listing-reading-time-sort="0.005" data-listing-title-sort="Structural racism and COVID-19 response: higher risk of exposure drives disparate COVID-19 deaths among Black and Hispanic/Latinx residents of Illinois, USA" data-listing-filename-sort="covid_disparities_paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-date">
+2022
+</td>
+<td class="listing-title">
+<a href="./my_publications/covid_disparities_paper.html" class="title">Structural racism and COVID-19 response: higher risk of exposure drives disparate COVID-19 deaths among Black and Hispanic/Latinx residents of Illinois, USA</a>
+</td>
+<td class="listing-journal-name">
+BMC Public Health
+</td>
+<td class="listing-citations">
+23
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1623301200000" data-listing-file-modified-sort="1682034940238" data-listing-reading-time-sort="0.005" data-listing-title-sort="Geographic and demographic heterogeneity of SARS-CoV-2 diagnostic testing in Illinois, USA, March to December 2020" data-listing-filename-sort="covid_testing_paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-date">
+2021
+</td>
+<td class="listing-title">
+<a href="./my_publications/covid_testing_paper.html" class="title">Geographic and demographic heterogeneity of SARS-CoV-2 diagnostic testing in Illinois, USA, March to December 2020</a>
+</td>
+<td class="listing-journal-name">
+BMC Public Health
+</td>
+<td class="listing-citations">
+13
+</td>
+</tr>
+<tr data-index="4" data-listing-date-sort="1464757200000" data-listing-file-modified-sort="1682034929647" data-listing-reading-time-sort="0.005" data-listing-title-sort="An important role of Pumilio 1 in regulating the development of the mammalian female germline" data-listing-filename-sort="pumilio_1_paper.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-date">
+2016
+</td>
+<td class="listing-title">
+<a href="./my_publications/pumilio_1_paper.html" class="title">An important role of Pumilio 1 in regulating the development of the mammalian female germline</a>
+</td>
+<td class="listing-journal-name">
+Biology of Reproduction
+</td>
+<td class="listing-citations">
+64
 </td>
 </tr>
 </tbody>
@@ -587,16 +715,13 @@ Journal Name
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="my-publication-list-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div id="listing-my-oral-presentation-list" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 
 <table class="quarto-listing-table table table-striped table-hover">
 <thead>
@@ -613,40 +738,76 @@ Conference/Event
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1681801509083" data-listing-reading-time-sort="0.005" data-listing-title-sort="Title of oral presentation" data-listing-filename-sort="oral_presentation_1.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="0" data-listing-file-modified-sort="1681935489485" data-listing-reading-time-sort="0.005" data-listing-title-sort="Recalibration of a mathematical model of malaria transmission with parasite and infectivity data from Burkina Faso" data-listing-filename-sort="jhu_wmd_2022.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td class="listing-year">
 2022
 </td>
 <td class="listing-title">
-<a href="./my_presentations/oral_presentations/oral_presentation_1.html" class="title">Title of oral presentation</a>
+<a href="./my_presentations/oral_presentations/jhu_wmd_2022.html" class="title">Recalibration of a mathematical model of malaria transmission with parasite and infectivity data from Burkina Faso</a>
 </td>
 <td class="listing-conference-event">
-Conference or Event Name
+Johns Hopkins University World Malaria Day
 </td>
 </tr>
-<tr data-index="1" data-listing-file-modified-sort="1681801519463" data-listing-reading-time-sort="0.005" data-listing-title-sort="Title of oral presentation" data-listing-filename-sort="oral_presentation_2.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="1" data-listing-file-modified-sort="1681935612129" data-listing-reading-time-sort="0.005" data-listing-title-sort="Structural racism and COVID-19 response: Higher risk of exposure drives disparate COVID-19 deaths among Black and Hispanic/Latinx residents of Illinois, USA" data-listing-filename-sort="astmh_2021.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td class="listing-year">
-2022
+2021
 </td>
 <td class="listing-title">
-<a href="./my_presentations/oral_presentations/oral_presentation_2.html" class="title">Title of oral presentation</a>
+<a href="./my_presentations/oral_presentations/astmh_2021.html" class="title">Structural racism and COVID-19 response: Higher risk of exposure drives disparate COVID-19 deaths among Black and Hispanic/Latinx residents of Illinois, USA</a>
 </td>
 <td class="listing-conference-event">
-Conference or Event Name
+American Society of Tropical Medicine &amp; Hygeniene Annual Meeting
 </td>
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1681801549310" data-listing-reading-time-sort="0.005" data-listing-title-sort="Title of oral presentation" data-listing-filename-sort="oral_presentation_3.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="2" data-listing-file-modified-sort="1681935794480" data-listing-reading-time-sort="0.005" data-listing-title-sort="Diversity and collective migration of *Escherichia coli* in semisolid agar" data-listing-filename-sort="yale_mcdb_2017.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td class="listing-year">
-2020
+2017
 </td>
 <td class="listing-title">
-<a href="./my_presentations/oral_presentations/oral_presentation_3.html" class="title">Title of oral presentation</a>
+<a href="./my_presentations/oral_presentations/yale_mcdb_2017.html" class="title">Diversity and collective migration of <em>Escherichia coli</em> in semisolid agar</a>
 </td>
 <td class="listing-conference-event">
-Conference or Event Name
+Yale University Molecular, Cellular, and Developmental Biology Symposium
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1681935812972" data-listing-reading-time-sort="0.005" data-listing-title-sort="Better Together? Diversity and collective migration of *E. coli* in semi-solid agar" data-listing-filename-sort="yale_mellon_2017.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-year">
+2017
+</td>
+<td class="listing-title">
+<a href="./my_presentations/oral_presentations/yale_mellon_2017.html" class="title">Better Together? Diversity and collective migration of <em>E. coli</em> in semi-solid agar</a>
+</td>
+<td class="listing-conference-event">
+Trumbull College Mellon Forum
+</td>
+</tr>
+<tr data-index="4" data-listing-file-modified-sort="1681935873001" data-listing-reading-time-sort="0.005" data-listing-title-sort="Lentiviral induction of trophoblast stem cells" data-listing-filename-sort="yale_stars_2015.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-year">
+2015
+</td>
+<td class="listing-title">
+<a href="./my_presentations/oral_presentations/yale_stars_2015.html" class="title">Lentiviral induction of trophoblast stem cells</a>
+</td>
+<td class="listing-conference-event">
+Yale University STARS Summer Research Symposium
+</td>
+</tr>
+<tr data-index="5" data-listing-file-modified-sort="1681935927302" data-listing-reading-time-sort="0.005" data-listing-title-sort="The effects of ang-2 stimulation on human brain pericyte expression of platelet-derived growth factor receptor-beta" data-listing-filename-sort="scjas_2013.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-year">
+2013
+</td>
+<td class="listing-title">
+<a href="./my_presentations/oral_presentations/scjas_2013.html" class="title">The effects of ang-2 stimulation on human brain pericyte expression of platelet-derived growth factor receptor-beta</a>
+</td>
+<td class="listing-conference-event">
+South Carolina Junior Academy of Science Annual Meeting
 </td>
 </tr>
 </tbody>
@@ -655,16 +816,13 @@ Conference or Event Name
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="my-oral-presentation-list-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div id="listing-my-poster-presentation-list" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 
 <table class="quarto-listing-table table table-striped table-hover">
 <thead>
@@ -681,77 +839,76 @@ Conference/Event
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1672552800000" data-listing-file-modified-sort="1681795201798" data-listing-reading-time-sort="0.005" data-listing-title-sort="Title of poster" data-listing-filename-sort="poster_presentation_1.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="0" data-listing-file-modified-sort="1681935999481" data-listing-reading-time-sort="0.005" data-listing-title-sort="Recalibration of Within-Host Parameters in an Agent Based Malaria Transmission Model Based on the INDIE-1a Trial" data-listing-filename-sort="astmh_2022.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
-<td class="listing-date">
-2023
-</td>
-<td class="listing-title">
-<a href="./my_presentations/poster_presentations/poster_presentation_1.html" class="title">Title of poster</a>
-</td>
-<td class="listing-conference-event">
-Conference or Event Name
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1655269200000" data-listing-file-modified-sort="1681795247537" data-listing-reading-time-sort="0.005" data-listing-title-sort="Title of poster" data-listing-filename-sort="poster_presentation_2.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td class="listing-date">
+<td class="listing-year">
 2022
 </td>
 <td class="listing-title">
-<a href="./my_presentations/poster_presentations/poster_presentation_2.html" class="title">Title of poster</a>
+<a href="./my_presentations/poster_presentations/astmh_2022.html" class="title">Recalibration of Within-Host Parameters in an Agent Based Malaria Transmission Model Based on the INDIE-1a Trial</a>
 </td>
 <td class="listing-conference-event">
-Conference or Event Name
+American Society of Tropical Medicine and Hygiene Annual Meeting
 </td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1607925600000" data-listing-file-modified-sort="1681795281137" data-listing-reading-time-sort="0.005" data-listing-title-sort="Title of poster" data-listing-filename-sort="poster_presentation_3.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="1" data-listing-file-modified-sort="1681936157782" data-listing-reading-time-sort="0.005" data-listing-title-sort="Constructing, Calibrating, and Validating an Agent-Based Model of Interventions to Detect &amp; Treat Asymptomatic Malaria: Simulating the INDIE Trial in Burkina Faso" data-listing-filename-sort="ghd_2022.qmd" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
-<td class="listing-date">
-2020
+<td class="listing-year">
+2022
 </td>
 <td class="listing-title">
-<a href="./my_presentations/poster_presentations/poster_presentation_3.html" class="title">Title of poster</a>
+<a href="./my_presentations/poster_presentations/ghd_2022.html" class="title">Constructing, Calibrating, and Validating an Agent-Based Model of Interventions to Detect &amp; Treat Asymptomatic Malaria: Simulating the INDIE Trial in Burkina Faso</a>
 </td>
 <td class="listing-conference-event">
-Conference or Event Name
+Robert J. Havey, MD Institute for Global Health: Global Health Day
 </td>
 </tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<div id="listing-my-grants-and-fellowships" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Year(s)
-</th>
-<th>
-Title
-</th>
-<th>
-Source
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1681804388024" data-listing-reading-time-sort="0.005" data-listing-title-sort="Name of Grant or Fellowship" data-listing-filename-sort="grant_template.qmd">
-<td class="listing-years">
-2020
+<tr data-index="2" data-listing-file-modified-sort="1681936085420" data-listing-reading-time-sort="0.005" data-listing-title-sort="Inferring the effect of participant migration on outcomes from a clinical trial of malaria mass testing, treatment, and tracking interventions in Greater Accra, Ghana: an agent-based modeling study" data-listing-filename-sort="llrd_2022.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-year">
+2022
 </td>
 <td class="listing-title">
-<a href="./grants_and_fellowships/grant_template.html" class="title">Name of Grant or Fellowship</a>
+<a href="./my_presentations/poster_presentations/llrd_2022.html" class="title">Inferring the effect of participant migration on outcomes from a clinical trial of malaria mass testing, treatment, and tracking interventions in Greater Accra, Ghana: an agent-based modeling study</a>
 </td>
-<td class="listing-description">
-Funding Source
+<td class="listing-conference-event">
+Feinberg School of Medicine Lewis Landsberg Research Day
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1681936202447" data-listing-reading-time-sort="0.005" data-listing-title-sort="Simulating interventions for screening, testing, and treating asymptomatic malaria infections" data-listing-filename-sort="ghd_2021.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-year">
+2021
+</td>
+<td class="listing-title">
+<a href="./my_presentations/poster_presentations/ghd_2021.html" class="title">Simulating interventions for screening, testing, and treating asymptomatic malaria infections</a>
+</td>
+<td class="listing-conference-event">
+Robert J. Havey, MD Institute for Global Health: Global Health Day
+</td>
+</tr>
+<tr data-index="4" data-listing-file-modified-sort="1681936320314" data-listing-reading-time-sort="0.005" data-listing-title-sort="Optimization of in silico hSC-CM model for preclinical pro-arrhythmia assessment and an app-based approach to collaborative drug safety screening" data-listing-filename-sort="prep_2018.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-year">
+2018
+</td>
+<td class="listing-title">
+<a href="./my_presentations/poster_presentations/prep_2018.html" class="title">Optimization of in silico hSC-CM model for preclinical pro-arrhythmia assessment and an app-based approach to collaborative drug safety screening</a>
+</td>
+<td class="listing-conference-event">
+NIH PREP Regional Symposium
+</td>
+</tr>
+<tr data-index="5" data-listing-file-modified-sort="1681936383598" data-listing-reading-time-sort="0.005" data-listing-title-sort="Diversity and collective migration of *Escherichia coli* in semisolid agar" data-listing-filename-sort="yale_mcdb_2017.qmd" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td class="listing-year">
+2017
+</td>
+<td class="listing-title">
+<a href="./my_presentations/poster_presentations/yale_mcdb_2017.html" class="title">Diversity and collective migration of <em>Escherichia coli</em> in semisolid agar</a>
+</td>
+<td class="listing-conference-event">
+Yale University Molecular, Cellular, and Developmental Biology Symposium
 </td>
 </tr>
 </tbody>
@@ -760,6 +917,9 @@ Funding Source
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="my-poster-presentation-list-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </div>
 </div>
@@ -769,11 +929,12 @@ No matching items
 <section id="activities-awards" class="level3">
 <h3 class="anchored" data-anchor-id="activities-awards"><span class="smallcaps"><strong>Activities &amp; Awards</strong></span></h3>
 </section></center>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class=""><br> <strong>Hobbies &amp; Other Passions</strong> <br> | Film &amp; Digital Photography <br> | Hiking <br> | Rollerblading <br> | Trivia <br> | Film Criticism</span></div></div>
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Teaching &amp; Mentorship</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Work Experience</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Awards &amp; Honors</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Grants &amp; Fellowships</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Professional Activities</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Awards &amp; Honors</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<div id="listing-my-teaching-experiences" class="quarto-listing quarto-listing-container-table">
+<div id="listing-my-grants-and-fellowships" class="quarto-listing quarto-listing-container-table">
 
 <table class="quarto-listing-table table">
 <thead>
@@ -782,23 +943,99 @@ No matching items
 Year(s)
 </th>
 <th>
-Experience
+Type
 </th>
 <th>
-Subject or Program
+Grant or Fellowship
+</th>
+<th>
+Source
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1681803395481" data-listing-reading-time-sort="0.005" data-listing-title-sort="Role" data-listing-filename-sort="teaching_experience_template.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1681965267948" data-listing-reading-time-sort="0.01" data-listing-title-sort="NRSA Individual Predoctoral Fellowship" data-listing-filename-sort="NIAID_F31.qmd">
 <td class="listing-years">
-2015-2018
+2022-2025
+</td>
+<td class="listing-type">
+Grant
 </td>
 <td class="listing-title">
-<a href="./teaching_and_mentoring/teaching_experience_template.html" class="title">Role</a>
+<a href="./grants_and_fellowships/NIAID_F31.html" class="title">NRSA Individual Predoctoral Fellowship</a>
 </td>
 <td class="listing-description">
-Course or Program
+NIH NIAID
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1681995612922" data-listing-reading-time-sort="1.33" data-listing-title-sort="Computational &amp; Data Science Fellowship" data-listing-filename-sort="SIGHPC.qmd">
+<td class="listing-years">
+2022-2025
+</td>
+<td class="listing-type">
+Fellowship
+</td>
+<td class="listing-title">
+<a href="./grants_and_fellowships/SIGHPC.html" class="title">Computational &amp; Data Science Fellowship</a>
+</td>
+<td class="listing-description">
+ACM SIGHPC
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1681946724552" data-listing-reading-time-sort="0.005" data-listing-title-sort="PREP Scholarship @ Icahn School of Medicine at Mt. Sinai" data-listing-filename-sort="prep_scholarship.qmd">
+<td class="listing-years">
+2017-2018
+</td>
+<td class="listing-type">
+Fellowship
+</td>
+<td class="listing-title">
+<a href="./grants_and_fellowships/prep_scholarship.html" class="title">PREP Scholarship @ Icahn School of Medicine at Mt. Sinai</a>
+</td>
+<td class="listing-description">
+NIH NIGMS
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1681996002558" data-listing-reading-time-sort="0.645" data-listing-title-sort="Mellon Forum Research Grant" data-listing-filename-sort="yale_mellon_grant.qmd">
+<td class="listing-years">
+2016
+</td>
+<td class="listing-type">
+Grant
+</td>
+<td class="listing-title">
+<a href="./grants_and_fellowships/yale_mellon_grant.html" class="title">Mellon Forum Research Grant</a>
+</td>
+<td class="listing-description">
+Yale University
+</td>
+</tr>
+<tr data-index="4" data-listing-file-modified-sort="1681946763848" data-listing-reading-time-sort="0.005" data-listing-title-sort="STARS Summer Research Fellowship" data-listing-filename-sort="yale_stars_fellowship.qmd">
+<td class="listing-years">
+2015
+</td>
+<td class="listing-type">
+Fellowship
+</td>
+<td class="listing-title">
+<a href="./grants_and_fellowships/yale_stars_fellowship.html" class="title">STARS Summer Research Fellowship</a>
+</td>
+<td class="listing-description">
+Yale University
+</td>
+</tr>
+<tr data-index="5" data-listing-file-modified-sort="1681946736846" data-listing-reading-time-sort="0.005" data-listing-title-sort="Research Exchange Scholarship @ DKFZ Heidelberg" data-listing-filename-sort="roche_resp_scholarship.qmd">
+<td class="listing-years">
+2012
+</td>
+<td class="listing-type">
+Fellowship
+</td>
+<td class="listing-title">
+<a href="./grants_and_fellowships/roche_resp_scholarship.html" class="title">Research Exchange Scholarship @ DKFZ Heidelberg</a>
+</td>
+<td class="listing-description">
+Hoffman-La Roche
 </td>
 </tr>
 </tbody>
@@ -807,35 +1044,253 @@ Course or Program
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="my-grants-and-fellowships-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </div>
 <div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<div id="listing-my-work-experiences" class="quarto-listing quarto-listing-container-table">
+<div id="listing-all-my-activities" class="quarto-listing quarto-listing-container-table">
 
 <table class="quarto-listing-table table">
 <thead>
 <tr>
 <th>
 Year(s)
+</th>
+<th>
+Category
 </th>
 <th>
 Role
 </th>
 <th>
-Location
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1681803386124" data-listing-reading-time-sort="0.005" data-listing-title-sort="Name of Job" data-listing-filename-sort="work_experience_template.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1681945859406" data-listing-reading-time-sort="0.005" data-listing-title-sort="Co-Instructor" data-listing-filename-sort="FE_program.qmd">
 <td class="listing-years">
-2020 - Now
+2022 - 2023
+</td>
+<td class="listing-type">
+Teaching
 </td>
 <td class="listing-title">
-<a href="./work_experiences/work_experience_template.html" class="title">Name of Job</a>
+<a href="./teaching_and_mentoring/FE_program.html" class="title">Co-Instructor</a>
 </td>
 <td class="listing-description">
-Employer Name
+Faculty Enrichment Program in Applied Malaria Modeling
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1681946280836" data-listing-reading-time-sort="0.005" data-listing-title-sort="Seminar Committee Member" data-listing-filename-sort="ammnet_seminar_committee.qmd">
+<td class="listing-years">
+2022 - 2023
+</td>
+<td class="listing-type">
+Leadership
+</td>
+<td class="listing-title">
+<a href="./extracurricular/ammnet_seminar_committee.html" class="title">Seminar Committee Member</a>
+</td>
+<td class="listing-description">
+Applied Malaria Modeling Network (AMMnet)
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1681945829056" data-listing-reading-time-sort="0.005" data-listing-title-sort="Application Screener &amp; Interviewer" data-listing-filename-sort="mstp_admissions.qmd">
+<td class="listing-years">
+2021 - 2023
+</td>
+<td class="listing-type">
+Leadership
+</td>
+<td class="listing-title">
+<a href="./extracurricular/mstp_admissions.html" class="title">Application Screener &amp; Interviewer</a>
+</td>
+<td class="listing-description">
+Northwestern MSTP
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1681946417141" data-listing-reading-time-sort="0.005" data-listing-title-sort="Student Doctor in ECMH" data-listing-filename-sort="ecmh_erie.qmd">
+<td class="listing-years">
+2019 - 2023
+</td>
+<td class="listing-type">
+Clinical
+</td>
+<td class="listing-title">
+<a href="./extracurricular/ecmh_erie.html" class="title">Student Doctor in ECMH</a>
+</td>
+<td class="listing-description">
+Erie Family Health Center - Humboldt Park
+</td>
+</tr>
+<tr data-index="4" data-listing-file-modified-sort="1681945550546" data-listing-reading-time-sort="0.005" data-listing-title-sort="Graduate TA" data-listing-filename-sort="patient_safety_TA.qmd">
+<td class="listing-years">
+2022
+</td>
+<td class="listing-type">
+Teaching
+</td>
+<td class="listing-title">
+<a href="./teaching_and_mentoring/patient_safety_TA.html" class="title">Graduate TA</a>
+</td>
+<td class="listing-description">
+HQS 402: Intro to Patient Safety
+</td>
+</tr>
+<tr data-index="5" data-listing-file-modified-sort="1681945831633" data-listing-reading-time-sort="0.005" data-listing-title-sort="Co-President" data-listing-filename-sort="mstp_stuco.qmd">
+<td class="listing-years">
+2021 - 2022
+</td>
+<td class="listing-type">
+Leadership
+</td>
+<td class="listing-title">
+<a href="./extracurricular/mstp_stuco.html" class="title">Co-President</a>
+</td>
+<td class="listing-description">
+MSTP Student Council
+</td>
+</tr>
+<tr data-index="6" data-listing-file-modified-sort="1682035384023" data-listing-reading-time-sort="0.005" data-listing-title-sort="Data Equity Working Group Member" data-listing-filename-sort="idph_data_equity_group.qmd">
+<td class="listing-years">
+2020 - 2022
+</td>
+<td class="listing-type">
+Data Science
+</td>
+<td class="listing-title">
+<a href="./extracurricular/idph_data_equity_group.html" class="title">Data Equity Working Group Member</a>
+</td>
+<td class="listing-description">
+Illinois Department of Public Health
+</td>
+</tr>
+<tr data-index="7" data-listing-file-modified-sort="1681945825411" data-listing-reading-time-sort="0.005" data-listing-title-sort="Co-Founder" data-listing-filename-sort="nu_generation.qmd">
+<td class="listing-years">
+2020 - 2021
+</td>
+<td class="listing-type">
+Leadership
+</td>
+<td class="listing-title">
+<a href="./extracurricular/nu_generation.html" class="title">Co-Founder</a>
+</td>
+<td class="listing-description">
+Generation NU (1st-Generation Support Group)
+</td>
+</tr>
+<tr data-index="8" data-listing-file-modified-sort="1682034745338" data-listing-reading-time-sort="0.005" data-listing-title-sort="Volunteer Data Analyst" data-listing-filename-sort="get_me_ppe.qmd">
+<td class="listing-years">
+2020
+</td>
+<td class="listing-type">
+Data Science
+</td>
+<td class="listing-title">
+<a href="./extracurricular/get_me_ppe.html" class="title">Volunteer Data Analyst</a>
+</td>
+<td class="listing-description">
+#GetMePPE Chicago (COVID-19 Response non-profit)
+</td>
+</tr>
+<tr data-index="9" data-listing-file-modified-sort="1682034705943" data-listing-reading-time-sort="0.005" data-listing-title-sort="Volunteer R Tutor" data-listing-filename-sort="r_tutoring.qmd">
+<td class="listing-years">
+2019-2021
+</td>
+<td class="listing-type">
+Teaching
+</td>
+<td class="listing-title">
+<a href="./teaching_and_mentoring/r_tutoring.html" class="title">Volunteer R Tutor</a>
+</td>
+<td class="listing-description">
+
+</td>
+</tr>
+<tr data-index="10" data-listing-file-modified-sort="1682035233906" data-listing-reading-time-sort="0.005" data-listing-title-sort="Pathology Informatics Group Member" data-listing-filename-sort="musc_pig.qmd">
+<td class="listing-years">
+2018 - 2019
+</td>
+<td class="listing-type">
+Data Science
+</td>
+<td class="listing-title">
+<a href="./extracurricular/musc_pig.html" class="title">Pathology Informatics Group Member</a>
+</td>
+<td class="listing-description">
+Medical University of South Carolina
+</td>
+</tr>
+<tr data-index="11" data-listing-file-modified-sort="1681945557051" data-listing-reading-time-sort="0.005" data-listing-title-sort="Quantitative Reasoning Tutor" data-listing-filename-sort="onexys.qmd">
+<td class="listing-years">
+2017
+</td>
+<td class="listing-type">
+Teaching
+</td>
+<td class="listing-title">
+<a href="./teaching_and_mentoring/onexys.html" class="title">Quantitative Reasoning Tutor</a>
+</td>
+<td class="listing-description">
+Yale University ONEXYS
+</td>
+</tr>
+<tr data-index="12" data-listing-file-modified-sort="1681945846083" data-listing-reading-time-sort="0.005" data-listing-title-sort="First-Year Counselor" data-listing-filename-sort="froco.qmd">
+<td class="listing-years">
+2016 - 2017
+</td>
+<td class="listing-type">
+Mentorship
+</td>
+<td class="listing-title">
+<a href="./teaching_and_mentoring/froco.html" class="title">First-Year Counselor</a>
+</td>
+<td class="listing-description">
+Trumbull College at Yale University
+</td>
+</tr>
+<tr data-index="13" data-listing-file-modified-sort="1681945571418" data-listing-reading-time-sort="0.005" data-listing-title-sort="Summer Counselor" data-listing-filename-sort="fsy.qmd">
+<td class="listing-years">
+2016
+</td>
+<td class="listing-type">
+Mentorship
+</td>
+<td class="listing-title">
+<a href="./teaching_and_mentoring/fsy.html" class="title">Summer Counselor</a>
+</td>
+<td class="listing-description">
+First-Year Scholars at Yale (FSY) Program
+</td>
+</tr>
+<tr data-index="14" data-listing-file-modified-sort="1681945853110" data-listing-reading-time-sort="0.005" data-listing-title-sort="Orientation Trip Leader" data-listing-filename-sort="foot.qmd">
+<td class="listing-years">
+2015 - 2016
+</td>
+<td class="listing-type">
+Mentorship
+</td>
+<td class="listing-title">
+<a href="./teaching_and_mentoring/foot.html" class="title">Orientation Trip Leader</a>
+</td>
+<td class="listing-description">
+First-Year Outdoor Oorientation Trips (FOOT) at Yale
+</td>
+</tr>
+<tr data-index="15" data-listing-file-modified-sort="1682035566336" data-listing-reading-time-sort="0.065" data-listing-title-sort="Co-Founder" data-listing-filename-sort="simplex_sciences.qmd">
+<td class="listing-years">
+2015 - 2016
+</td>
+<td class="listing-type">
+Entrepreneurship
+</td>
+<td class="listing-title">
+<a href="./extracurricular/simplex_sciences.html" class="title">Co-Founder</a>
+</td>
+<td class="listing-description">
+Simplex Sciences (Biotech Venture)
 </td>
 </tr>
 </tbody>
@@ -844,6 +1299,9 @@ Employer Name
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="all-my-activities-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </div>
 <div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
@@ -864,15 +1322,48 @@ Source
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1681804871584" data-listing-reading-time-sort="0.005" data-listing-title-sort="Award Title" data-listing-filename-sort="award_template.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1681946637250" data-listing-reading-time-sort="0.005" data-listing-title-sort="Annual Meeting Travel Award" data-listing-filename-sort="MIDAS_travel_award_2022.qmd">
 <td class="listing-years">
-2020-2022
+2022
 </td>
 <td class="listing-title">
-<a href="./awards_and_honors/award_template.html" class="title">Award Title</a>
+<a href="./awards_and_honors/MIDAS_travel_award_2022.html" class="title">Annual Meeting Travel Award</a>
 </td>
 <td class="listing-description">
-source of award
+Models of Infectious Disease Agent Study (MIDAS) Network
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1681946625262" data-listing-reading-time-sort="0.005" data-listing-title-sort="Heller Scholarship" data-listing-filename-sort="heller_scholarship.qmd">
+<td class="listing-years">
+2019-2021
+</td>
+<td class="listing-title">
+<a href="./awards_and_honors/heller_scholarship.html" class="title">Heller Scholarship</a>
+</td>
+<td class="listing-description">
+Northwestern MSTP
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1681946644196" data-listing-reading-time-sort="0.005" data-listing-title-sort="Best Poster" data-listing-filename-sort="prep_symposium_best_poster.qmd">
+<td class="listing-years">
+2018
+</td>
+<td class="listing-title">
+<a href="./awards_and_honors/prep_symposium_best_poster.html" class="title">Best Poster</a>
+</td>
+<td class="listing-description">
+NIH PREP Regional Symposium
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1681946660796" data-listing-reading-time-sort="0.005" data-listing-title-sort="Best Oral Presentation in Physiology &amp; Health" data-listing-filename-sort="scjas_best_presentation.qmd">
+<td class="listing-years">
+2013
+</td>
+<td class="listing-title">
+<a href="./awards_and_honors/scjas_best_presentation.html" class="title">Best Oral Presentation in Physiology &amp; Health</a>
+</td>
+<td class="listing-description">
+South Carolina Junior Academy of Science (SCJAS)
 </td>
 </tr>
 </tbody>
@@ -881,6 +1372,9 @@ source of award
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="my-awards-and-honors-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </div>
 </div>
@@ -1027,7 +1521,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">© or other footer information to display on every page</div>
+      <div class="nav-footer-center">© Tobias M. Holden 2023</div>
   </div>
 </footer>
 

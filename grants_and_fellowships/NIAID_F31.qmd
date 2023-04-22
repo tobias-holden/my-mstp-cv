@@ -1,0 +1,9 @@
+---
+title: NRSA Individual Predoctoral Fellowship
+years: "2022-2025"
+description: NIH NIAID
+page-layout: article
+type: Grant
+---
+
+[NIAID 1F31AI172387-01](https://reporter.nih.gov/search/z9aX9R_0U0iwEF7cbn_q6A/project-details/10537580)

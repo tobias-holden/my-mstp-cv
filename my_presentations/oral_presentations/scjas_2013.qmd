@@ -1,0 +1,14 @@
+---
+title: "The effects of ang-2 stimulation on human brain pericyte expression of platelet-derived growth factor receptor-beta"
+author: Tobias M. Holden
+description: Brief description.
+year: 2013
+doi: <doi>
+abstract: Abstract
+toc: true
+toc-depth: 5
+conference-event: South Carolina Junior Academy of Science Annual Meeting
+style: Oral
+---
+
+![]()

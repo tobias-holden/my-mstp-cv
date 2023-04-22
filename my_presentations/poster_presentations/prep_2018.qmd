@@ -1,0 +1,15 @@
+---
+title: "Optimization of in silico hSC-CM model for preclinical pro-arrhythmia assessment and an app-based approach to collaborative drug safety screening"
+author: 
+  - Tobias M. Holden
+description: Brief description.
+year: 2018
+doi: <doi>
+abstract: Abstract goes here.
+toc: true
+toc-depth: 5
+conference-event: "NIH PREP Regional Symposium"
+style: Poster
+---
+
+![]()

@@ -1,5 +1,19 @@
 ---
-title: B.S.
-author: College Name
-description: "2013 - 2017 <br> Undergraduate Major"
+title: B.S. 
+author: Yale University
+description: "2013 - 2017 <br> Molecular, Cellular, and Developmental Biology"
+image: ../images/yale_blue.jpeg
+page-layout: article
 ---
+
+### Molecular, Cellular, and Developmental Biology
+
+The undergraduate program in MCDB teaches students foundational scientific concepts and research and analysis skills while cultivating critical thinking. Students work independently and work collaboratively to solve research questions. Through the major’s structure—moving from foundational courses in biology to advanced independent research either in or out of the laboratory—students develop a strong sense of how to identify and explore important questions in modern biological and biomedical science.
+
+#### Quantitative Biology Concentration
+
+* Intro to Dynamical Systems in Biology  
+* Multi-scale Models of Biomechanical Systems  
+* Systems Biology  
+* Introductory Data Analysis  
+* Computational Probability & Statistics

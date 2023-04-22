@@ -1,7 +1,0 @@
----
-title: Name of Job
-years: "2020 - Now"
-description: Employer Name
----
-
-![]()

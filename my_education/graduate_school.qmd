@@ -1,6 +1,19 @@
 ---
 title: Ph.D. 
-author: "Northwestern Uinversity MSTP"
-description: "2021 - <br> Graduate Program"
-image: northwestern_logo.png
+author: "Northwestern University MSTP"
+description: "2021 - <br> Health & Biomedical Informatics"
+image: ../images/purple.png
+toc: true
+toc-depth: 5
+page-layout: article
 ---
+
+### Selected Coursework
+
+```{r, echo=F}
+library(data.table)
+library(DT)
+
+df <- read.csv("grad_classes.csv")
+DT::datatable(df, options = list(dom='t'), rownames = F)
+```

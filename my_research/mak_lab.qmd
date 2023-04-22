@@ -1,0 +1,25 @@
+---
+title: "Reproductive Stem Cell Biology 🧫"
+author: Yale University Stem Cell Center
+description: "2015 - 2016 <br> *STARS Fellow* with Dr. Winifred Mak"
+toc: true
+toc-depth: 5
+current: 0
+image: ../images/yale_blue.jpeg
+listing:
+  contents: ../my_publications/pumilio*.qmd
+  type: grid
+  grid-columns: 2
+  page-size: 2
+  fields: [title, description, journal-name, date]
+  field-display-names: 
+      journal-name: "Published in" 
+
+page-layout: article
+---
+
+In 2015, I was awarded a Yale Science Technology and Research Scholars (STARS) summer fellowship to work with physician-scientist Dr. Winifred Mak at the Yale Stem Cell Center. The goal of my project was to induce trophoblast stem cells from somatic cells, and I spent 9 weeks in the lab designing cloning constructs to use in mice. I identified 5 candidate reprogramming genes and constructed plasmids for transformation into *E. Coli*, to eventually be carried by lentivirus.
+
+I continued working with Dr. Mak after the fellowship ended, aiding in data collection and analysis for a project studying the role of a particular translational regulator (Pumilio-1) in the development of primordial follicles in mammalian ovaries. We found that Pumilio-1, but not its homolog Pumilio-2, functions as an important translational regulator in development of the female germline.
+
+### Key regulators of female germline development

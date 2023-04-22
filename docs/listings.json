@@ -1,25 +1,83 @@
 [
   {
+    "listing": "/my_research/mak_lab.html",
+    "items": [
+      "/my_publications/pumilio_1_paper.html"
+    ]
+  },
+  {
+    "listing": "/my_research/gerardin_malaria.html",
+    "items": [
+      "/my_research/gerardin_malaria_projects/indie.html",
+      "/my_research/gerardin_malaria_projects/emod_recalibration.html",
+      "/my_research/gerardin_malaria_projects/nxtek.html"
+    ]
+  },
+  {
+    "listing": "/my_research/gerardin_covid.html",
+    "items": [
+      "/my_publications/covid_disparities_paper.html",
+      "/my_publications/covid_testing_paper.html",
+      "/my_publications/covid_sentinel_surveillance_paper.html",
+      "/my_publications/covid_icu_threshold_paper.html"
+    ]
+  },
+  {
     "listing": "/cv.html",
     "items": [
       "/my_education/graduate_school.html",
       "/my_education/medical_school.html",
       "/my_education/undergrad.html",
-      "/my_projects/project_2.html",
-      "/my_projects/project_4.html",
-      "/my_projects/project_3.html",
-      "/my_projects/project_1.html",
-      "/my_publications/publication_template.html",
-      "/my_presentations/oral_presentations/oral_presentation_1.html",
-      "/my_presentations/oral_presentations/oral_presentation_2.html",
-      "/my_presentations/oral_presentations/oral_presentation_3.html",
-      "/my_presentations/poster_presentations/poster_presentation_1.html",
-      "/my_presentations/poster_presentations/poster_presentation_2.html",
-      "/my_presentations/poster_presentations/poster_presentation_3.html",
-      "/grants_and_fellowships/grant_template.html",
-      "/teaching_and_mentoring/teaching_experience_template.html",
-      "/work_experiences/work_experience_template.html",
-      "/awards_and_honors/award_template.html"
+      "/my_research/gerardin_malaria.html",
+      "/my_research/gerardin_covid.html",
+      "/my_research/kershaw_lab.html",
+      "/my_research/squeglia_lab.html",
+      "/my_research/sobie_lab.html",
+      "/my_research/emonet_lab.html",
+      "/my_research/mak_lab.html",
+      "/my_publications/covid_sentinel_surveillance_paper.html",
+      "/my_publications/covid_icu_threshold_paper.html",
+      "/my_publications/covid_disparities_paper.html",
+      "/my_publications/covid_testing_paper.html",
+      "/my_publications/pumilio_1_paper.html",
+      "/my_presentations/oral_presentations/jhu_wmd_2022.html",
+      "/my_presentations/oral_presentations/astmh_2021.html",
+      "/my_presentations/oral_presentations/yale_mcdb_2017.html",
+      "/my_presentations/oral_presentations/yale_mellon_2017.html",
+      "/my_presentations/oral_presentations/yale_stars_2015.html",
+      "/my_presentations/oral_presentations/scjas_2013.html",
+      "/my_presentations/poster_presentations/astmh_2022.html",
+      "/my_presentations/poster_presentations/ghd_2022.html",
+      "/my_presentations/poster_presentations/llrd_2022.html",
+      "/my_presentations/poster_presentations/ghd_2021.html",
+      "/my_presentations/poster_presentations/prep_2018.html",
+      "/my_presentations/poster_presentations/yale_mcdb_2017.html",
+      "/grants_and_fellowships/NIAID_F31.html",
+      "/grants_and_fellowships/SIGHPC.html",
+      "/grants_and_fellowships/prep_scholarship.html",
+      "/grants_and_fellowships/yale_mellon_grant.html",
+      "/grants_and_fellowships/yale_stars_fellowship.html",
+      "/grants_and_fellowships/roche_resp_scholarship.html",
+      "/awards_and_honors/MIDAS_travel_award_2022.html",
+      "/awards_and_honors/heller_scholarship.html",
+      "/awards_and_honors/prep_symposium_best_poster.html",
+      "/awards_and_honors/scjas_best_presentation.html",
+      "/teaching_and_mentoring/FE_program.html",
+      "/extracurricular/ammnet_seminar_committee.html",
+      "/extracurricular/mstp_admissions.html",
+      "/extracurricular/ecmh_erie.html",
+      "/teaching_and_mentoring/patient_safety_TA.html",
+      "/extracurricular/mstp_stuco.html",
+      "/extracurricular/idph_data_equity_group.html",
+      "/extracurricular/nu_generation.html",
+      "/extracurricular/get_me_ppe.html",
+      "/teaching_and_mentoring/r_tutoring.html",
+      "/extracurricular/musc_pig.html",
+      "/teaching_and_mentoring/onexys.html",
+      "/teaching_and_mentoring/froco.html",
+      "/teaching_and_mentoring/fsy.html",
+      "/teaching_and_mentoring/foot.html",
+      "/extracurricular/simplex_sciences.html"
     ]
   }
 ]

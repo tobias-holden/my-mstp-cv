@@ -1,0 +1,9 @@
+---
+title: Co-Instructor
+years: "2022 - 2023"
+description: Faculty Enrichment Program in Applied Malaria Modeling
+current: 1
+type: "Teaching"
+---
+
+![]()

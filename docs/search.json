@@ -1,72 +1,135 @@
 [
   {
-    "objectID": "my_projects/project_4.html#sub-section-1",
-    "href": "my_projects/project_4.html#sub-section-1",
-    "title": "Project Title",
-    "section": "Sub-Section 1",
-    "text": "Sub-Section 1\n\nHeader 1\n\nSub-Header 1\n\nTitle 1\n\nSub-Title 1"
+    "objectID": "my_research/mak_lab.html",
+    "href": "my_research/mak_lab.html",
+    "title": "Reproductive Stem Cell Biology 🧫",
+    "section": "",
+    "text": "In 2015, I was awarded a Yale Science Technology and Research Scholars (STARS) summer fellowship to work with physician-scientist Dr. Winifred Mak at the Yale Stem Cell Center. The goal of my project was to induce trophoblast stem cells from somatic cells, and I spent 9 weeks in the lab designing cloning constructs to use in mice. I identified 5 candidate reprogramming genes and constructed plasmids for transformation into E. Coli, to eventually be carried by lentivirus.\nI continued working with Dr. Mak after the fellowship ended, aiding in data collection and analysis for a project studying the role of a particular translational regulator (Pumilio-1) in the development of primordial follicles in mammalian ovaries. We found that Pumilio-1, but not its homolog Pumilio-2, functions as an important translational regulator in development of the female germline.\n\nKey regulators of female germline development\n\n\n\n\n\n\n\n\n\n\n\n\nAn important role of Pumilio 1 in regulating the development of the mammalian female germline\n\n\nPumilio/FBF (PUF) proteins are a highly conserved family of translational regulators. The Drosophila PUF protein, Pumilio, is crucial for germline establishment and…\n\n\n\nJun 1, 2016\n\n\n\n\n\n\nPublished in\n\n\nBiology of Reproduction\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "my_projects/project_4.html#sub-section-2",
-    "href": "my_projects/project_4.html#sub-section-2",
-    "title": "Project Title",
-    "section": "Sub-Section 2",
-    "text": "Sub-Section 2"
+    "objectID": "my_research/squeglia_lab.html",
+    "href": "my_research/squeglia_lab.html",
+    "title": "Adolescent Brain & Cognitive Development 🧠",
+    "section": "",
+    "text": "From 2018 to 2019, I worked at the Medical University of South Carolina in the Addiction Sciences Division with Dr. Lindsay Squeglia PhD and Dr. Kevin Gray MD on the Adolescent Brain Cognitive Development Study, a nationwide longitudinal study. I was responsible for conducting the study protocol with 9- to 11-year-old participants, including:\n\nRecording structural and functional MRI images\nCollecting biospecimen samples\nRunning toxicology assays\nAdministering neurocognitive assessments, environmental questionanaires, and mental health screenings"
   },
   {
-    "objectID": "my_projects/project_1.html#sub-section-1",
-    "href": "my_projects/project_1.html#sub-section-1",
-    "title": "Project Title",
-    "section": "Sub-Section 1",
-    "text": "Sub-Section 1\n\nHeader 1\n\nSub-Header 1\n\nTitle 1\n\nSub-Title 1"
+    "objectID": "my_research/kershaw_lab.html",
+    "href": "my_research/kershaw_lab.html",
+    "title": "Agent-Based Modeling of Food Choice and Obesity Disparities 🛒",
+    "section": "",
+    "text": "Obesity is a major risk factor for several cardiovascular disease (CVD) risk factors including hypertension, diabetes, and dyslipidemia. Non-Hispanic black and Hispanic women are substantially more likely to be obese than their non-Hispanic white counterparts. Thus, identifying effective strategies for reducing obesity is critical to alleviate disparities in obesity and related adverse cardiopulmonary and sleep outcomes facing black and Hispanic women in the U.S. An agent-based model of a food-choice environment was built using in Python. Agents modeled were individuals with unique dietary preferences and eating establishments of varied price and healthfulness. Early simulations were able to reproduce disparities in diet quality between low- and high-income households observed in previous food-choice models when individual food choices were weighted according to preliminary data on meal preferences. Future work will involve updating the model to represent different Chicagoland community areas, and to include a physiological representation of weight gain/loss related to meal choices. Ultimately, a robust agent-based model can be used to simulate public health interventions aimed at reducing obesity by modifying diet behaviors or regulating eating establishments."
   },
   {
-    "objectID": "my_projects/project_1.html#sub-section-2",
-    "href": "my_projects/project_1.html#sub-section-2",
-    "title": "Project Title",
-    "section": "Sub-Section 2",
-    "text": "Sub-Section 2"
+    "objectID": "my_research/gerardin_malaria_projects/nxtek.html",
+    "href": "my_research/gerardin_malaria_projects/nxtek.html",
+    "title": "Simulating mass deployment of ultrasensitive vs. conventional malaria rapid diagnostic tests in Greater Accra, Ghana",
+    "section": "",
+    "text": "In 2021, Dr. Gerardin and I began a collaboration with Dr. Linda Amoah at the University of Ghana in Accra to create a simulation model of a clinical trial her team led in two villages within the Greater Accra area. The trial assessed the relative effectiveness and cost-effectiveness of standard vs. ultrasensitive rapid diagnostic tests for P. falciparum malaria under a mass testing, treatment, and tracking (MTTT) strategy.\n\nTo simulate the trial, I built a spatial model of the study villages, with transmission intensity calibrated to achieve observed malaria incidence and prevalence at the start and end of the trial, and modeled RDTs based off their performance relative to gold standard PCR in the trial.\n\nBy incorporating human movement into the model, I found that anomalous mass migration in 2020 could have diminished the effect size of MTTT interventions in the study by 50-60%."
   },
   {
-    "objectID": "my_projects/project_2.html#sub-section-1",
-    "href": "my_projects/project_2.html#sub-section-1",
-    "title": "Project Title",
-    "section": "Sub-Section 1",
-    "text": "Sub-Section 1\n\nHeader 1\n\nSub-Header 1\n\nTitle 1\n\nSub-Title 1"
+    "objectID": "my_research/gerardin_malaria_projects/indie.html",
+    "href": "my_research/gerardin_malaria_projects/indie.html",
+    "title": "Quantifying the potential contribution of asymptomatic screening and treatment to malaria control and elimination",
+    "section": "",
+    "text": "Malaria continues to be a major global health concern and is responsible for more than 400,000 deaths annually with more than 90% in Sub-Saharan Africa. Symptoms of malaria are caused by asexual parasites, but malaria is passed from humans to mosquitoes by sexually-differentiated gametocytes. After repeat exposures, acquired immunity limits the density of asexual parasites and the likelihood of developing symptoms. One possible barrier to malaria elimination is the reservoir of chronic infections with asexual parasite densities too low to prompt treatment, but sufficient gametocytes to infect mosquitoes. Therefore, detecting and treating asymptomatic infections could reduce transmission and indirectly prevent deaths.\nPreliminary results from a clinical trial in Burkina Faso (the INDIE trial) suggest that regular screening, testing, and treatment (STT) interventions significantly reduce gametocyte density and infectivity to mosquitoes. However, the effect of STT on reducing transmission and preventing cases and deaths at the population level remains unknown. I propose to use agent-based modeling to predict the impact of STT if it were to be widely implemented as part of malaria control or elimination efforts.\n\nFirst, I will use data from INDIE to build a detailed spatial model of the study site, calibrate within-host relationships between parasites, gametocytes, and infectivity, and validate the effect of STT on gametocyte density and infectivity.\nNext, I will predict the impact of implementing universal STT for the entire INDIE study area on reducing malaria cases.\n\nSince STT is resource-intensive, I will compare the effectiveness of implementing targeted STT in the INDIE study area, considering targeting by age group, limiting STT to the wet or dry season, and targeting STT to households with the highest mosquito exposure.\nUsing an archetypes approach and without considering other malaria interventions, I will make a back-of-the-envelope prediction of the impact of universal and targeted STT across all malaria-endemic Sub-Saharan Africa.\n\nFinally, I will adapt existing models contextualized by intervention history to assess the impact and cost- effectiveness of targeted STT strategies in high-burden and near-elimination settings, compared to established interventions.\n\nThe results of the proposed research will help policymakers decide if, when, and how to deploy STT to combat malaria. The F31 Ruth L. Kirschstein NRSA Individual Predoctoral Fellowship award will allow me to build my quantitative and research skills, improve my scientific writing and communication, and gain expertise in infectious disease epidemiology on the path toward becoming a successful independent investigator. In conducting the proposed research, I will integrate into a global network of malaria modelers and epidemiologists, gain familiarity with agent-based modeling, and make scientific contributions to the assessment of STT as a tool for malaria control and elimination. P"
   },
   {
-    "objectID": "my_projects/project_2.html#sub-section-2",
-    "href": "my_projects/project_2.html#sub-section-2",
-    "title": "Project Title",
-    "section": "Sub-Section 2",
-    "text": "Sub-Section 2"
+    "objectID": "my_research/emonet_lab.html",
+    "href": "my_research/emonet_lab.html",
+    "title": "Quantifying Heterogeneity in Collective Bacterial Migration 🔬",
+    "section": "",
+    "text": "In my senior year of college, I started a new project in Dr. Thierry Emonet’s lab on the role of non-genetic heterogeneity in collective behavior. We used the model system of E. coli to observe the relationship between variation in the population distribution of individual swimming phenotypes and the speed of collective migration for groups of bacteria. I cultured bacteria and recorded both collective and single-cell swimming patterns, which were then used to adjust a computational model of bacterial chemotaxis in MATLAB."
   },
   {
-    "objectID": "my_projects/project_3.html#sub-section-1",
-    "href": "my_projects/project_3.html#sub-section-1",
-    "title": "Project Title",
-    "section": "Sub-Section 1",
-    "text": "Sub-Section 1\n\nHeader 1\n\nSub-Header 1\n\nTitle 1\n\nSub-Title 1"
+    "objectID": "my_research/gerardin_malaria.html",
+    "href": "my_research/gerardin_malaria.html",
+    "title": "Agent-Based Modeling of Malaria Transmission 🦟",
+    "section": "",
+    "text": "Quantifying the potential contribution of asymptomatic screening and treatment to malaria control and elimination\n\n\nINDIE\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMulti-objective recalibration of the complex agent-based malaria transmission model, EMOD\n\n\nEmulator-bayed Bayesian optimization framework\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulating mass deployment of ultrasensitive vs. conventional malaria rapid diagnostic tests in Greater Accra, Ghana\n\n\nNxtek\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "my_projects/project_3.html#sub-section-2",
-    "href": "my_projects/project_3.html#sub-section-2",
-    "title": "Project Title",
-    "section": "Sub-Section 2",
-    "text": "Sub-Section 2"
+    "objectID": "my_research/gerardin_covid.html",
+    "href": "my_research/gerardin_covid.html",
+    "title": "COVID-19 Surveillance and Racial/Ethnic Disparities 🫁",
+    "section": "",
+    "text": "In 2020-21, Dr. Jaline Gerardin’s team was a member of the Illinois COVID-19 Modeling Task Force, which contributed analyses and forecasts to Illinois and Chicago to support public health response.\n\nI led analyses of racial/ethnic disparities in COVID-19 in Illinois, beginning during my rotation in Dr. Gerardin’s lab in May 2020 and continuing on a part-time basis while I completed my second year of medical school.\nI co-led work on characterizing heterogeneity in diagnostic testing, and I contributed to parameterizing a mathematical model of SARS-CoV-2 transmission that was used for weekly forecasting.\nI represented our modeling team in bi-weekly meetings of the Illinois Department of Public Health’s Data Equity Working Group.\n\nMy work has been used to inform the direction of mobile testing units to underserved communities in Illinois and will continue to be used to probe drivers of disparities in COVID-19 exposure and mortality.\n\nDisparities in COVID-19 testing and disease burden\n\n\n\n\n\n\n\n\n\n\nStructural racism and COVID-19 response: higher risk of exposure drives disparate COVID-19 deaths among Black and Hispanic/Latinx residents of Illinois, USA\n\n\nStructural racism has driven and continues to drive policies that create the social, economic, and community factors resulting in residential segregation, lack of access to…\n\n\n\nFeb 15, 2022\n\n\n\n\n\n\nPublished in\n\n\nBMC Public Health\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeographic and demographic heterogeneity of SARS-CoV-2 diagnostic testing in Illinois, USA, March to December 2020\n\n\nAvailability of SARS-CoV-2 testing in the United States (U.S.) has fluctuated through the course of the COVID-19 pandemic, including in the U.S. state of Illinois. Despite…\n\n\n\nJun 10, 2021\n\n\n\n\n\n\nPublished in\n\n\nBMC Public Health\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nCOVID-19 Surveillance and Forecasting\n\n\n\n\n\n\n\n\n\n\nTracking changes in SARS-CoV-2 transmission with a novel outpatient sentinel surveillance system in Chicago, USA\n\n\nPublic health indicators typically used for COVID-19 surveillance can be biased or lag changing community transmission patterns. In this study, we investigate whether…\n\n\n\nSep 22, 2022\n\n\n\n\n\n\nPublished in\n\n\nNature Communications\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModeling robust COVID-19 intensive care unit occupancy thresholds for imposing mitigation to prevent exceeding capacities\n\n\nIn non-pharmaceutical management of COVID-19, occupancy of intensive care units (ICU) is often used as an indicator to inform when to intensify mitigation and thus reduce…\n\n\n\nMay 5, 2022\n\n\n\n\n\n\nPublished in\n\n\nPLoS Global Public Health\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "my_research/sobie_lab.html",
+    "href": "my_research/sobie_lab.html",
+    "title": "Computational Modeling of Stem Cell-Derived Cardiomyocytes 🫀",
+    "section": "",
+    "text": "From 2017 to 2018, I was an NIH Post-Baccalaureate Research Education Program (PREP) Scholar at the Icahn School of Medicine in the lab of Dr. Eric Sobie, PhD. The laboratory employed mathematical models and computational simulations to quantitatively understand the molecular mechanisms behind cardiac physiology. One area of interest was improving prediction of arrhythmogenic risk in drug safety screening, where overestimation of risk shelves potentially therapeutic drugs, but underestimation can be lethal.\nI optimized existing mathematical models to capture the special electrophysiology of human induced pluripotent stem cell-derived cardiomyocytes (hiPS-CMs). Generating a working model of patient-derived hiPS-CMs would be a promising step toward personalized arrhythmia risk-assessment, the goal of the FDA’s Comprehensive In Vitro Proarrhythmia Assay initiative.\n\nI compared the in silico behavior of the established hiPS-CM model with in vitro patch-clamp data. I modified the model to include temperature sensitive effects on ion channel kinetics and to accommodate slower pacing. The updated model more accurately predicted the effects of test drugs on cell action potentials and ion handling.\nI built a prototype application using RShiny to make it much easier to customize parameters, run simulations, compute metrics, and visualize results, all in one place. The application improved reproducibility and provided a platform through which collaborators could more effectively make use of each other’s data and findings."
+  },
+  {
+    "objectID": "extracurricular/simplex_sciences.html",
+    "href": "extracurricular/simplex_sciences.html",
+    "title": "Co-Founder",
+    "section": "",
+    "text": "The story of Simplex Sciences began with…\nLearn more about Simplex Science’s current operations"
+  },
+  {
+    "objectID": "sinai_prep.html",
+    "href": "sinai_prep.html",
+    "title": "NIH Postbac Research Education Program (PREP)",
+    "section": "",
+    "text": "NIH PREP\n\nResearch\n\n\nSystems Biomedicine Coursework"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Firstname M. Lastname",
+    "title": "Tobias M. Holden",
     "section": "",
-    "text": "“In examining disease, we gain wisdom about anatomy and physiology and biology. In examining the person with disease, we gain wisdom about life.”\n― Oliver W. Sacks\n\nM.D. Doctor of Medicine Start - End*  Northwestern University  Ph.D. Graduate Program Start - End*  Northwestern University  B.S. Undergraduate Major Start - End  College University\n\nAnnouncements\n\n\n\n\n\n\nAdd a callout\n\n\n\nIf you have anything new or exciting you want to announce on the landing page!"
+    "text": "I am a MD/PhD student @ Northwestern University Medical Scientist Training Program. In my PhD research, I have applied high-performance computing and mathematical modeling to study COVID-19 and malaria epidemiology. In addition to training through the MSTP, I am a Predoctoral Research Fellow @ NIH National Institute of Allergy and Infectious Disease and a Computational & Data Science Fellow @ ACM Special Interest Group on HPC\nM.D. Doctor of Medicine 2019 - 2027*  Northwestern University MSTP  Ph.D. Health & Biomedical Informatics 2021 - 2025*  Northwestern University MSTP  B.S. Molecular, Cellular, and Developmental Biology (Quantitative) 2013 - 2017  Yale University"
+  },
+  {
+    "objectID": "my_education/graduate_school.html",
+    "href": "my_education/graduate_school.html",
+    "title": "Ph.D.",
+    "section": "",
+    "text": "Selected Coursework"
+  },
+  {
+    "objectID": "my_education/undergrad.html",
+    "href": "my_education/undergrad.html",
+    "title": "B.S.",
+    "section": "",
+    "text": "Molecular, Cellular, and Developmental Biology\nThe undergraduate program in MCDB teaches students foundational scientific concepts and research and analysis skills while cultivating critical thinking. Students work independently and work collaboratively to solve research questions. Through the major’s structure—moving from foundational courses in biology to advanced independent research either in or out of the laboratory—students develop a strong sense of how to identify and explore important questions in modern biological and biomedical science.\n\nQuantitative Biology Concentration\n\nIntro to Dynamical Systems in Biology\n\nMulti-scale Models of Biomechanical Systems\n\nSystems Biology\n\nIntroductory Data Analysis\n\nComputational Probability & Statistics"
+  },
+  {
+    "objectID": "my_education/medical_school.html",
+    "href": "my_education/medical_school.html",
+    "title": "M.D.",
+    "section": "",
+    "text": "Highlights\n\n\nSelected Modules\n\nFoundations 1-3\nCardiovascular/Blood\nPulmonology\nRenal\nMusculoskeletal/Dermatology\nHead & Neck\nNeuroscience\nPsychiatry\nGastrointestinal\nEndocrine\nReproductive/Genitourinary\nHematology/Oncology"
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "MSTP Template",
+    "title": "Tobias M. Holden",
     "section": "",
-    "text": "Firstname M. Lastname\n\n\n\n\n\nEducation\n\n\n\n\n\n\n\n\nPh.D.\n\n\n2021 -  Graduate Program\n\n\n\nNorthwestern Uinversity MSTP\n\n\n\n\n\n\n\n\n\n\n\nM.D.\n\n\n2019 -  Doctor of Medicine\n\n\n\nNorthwestern University MSTP\n\n\n\n\n\n\n\n\n\n\n\nB.S.\n\n\n2013 - 2017  Undergraduate Major\n\n\n\nCollege Name\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\nProject Title\n\n\n2020 - Now  Role with Dr. Advisor Mentor\n\n\n\nInstitution or Location\n\n\n\n\n\n\n\n\n\n\n\nProject Title\n\n\n2022  Role with Dr. Advisor Mentor\n\n\n\nInstitution or Location\n\n\n\n\n\n\n\n\n\n\n\nProject Title\n\n\n2021 - 2022  Role with Dr. Advisor Mentor\n\n\n\nInstitution or Location\n\n\n\n\n\n\n\n\n\n\n\nProject Title\n\n\n2018 - 2019  Role with Dr. Advisor Mentor\n\n\n\nInstitution or Location\n\n\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n\nPublicationsTalksPostersGrants/Fellowships\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\nTitle\n\n\nJournal\n\n\n\n\n\n\n2023\n\n\nTitle of the publication\n\n\nJournal Name\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\nTitle\n\n\nConference/Event\n\n\n\n\n\n\n2022\n\n\nTitle of oral presentation\n\n\nConference or Event Name\n\n\n\n\n2022\n\n\nTitle of oral presentation\n\n\nConference or Event Name\n\n\n\n\n2020\n\n\nTitle of oral presentation\n\n\nConference or Event Name\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\nTitle\n\n\nConference/Event\n\n\n\n\n\n\n2023\n\n\nTitle of poster\n\n\nConference or Event Name\n\n\n\n\n2022\n\n\nTitle of poster\n\n\nConference or Event Name\n\n\n\n\n2020\n\n\nTitle of poster\n\n\nConference or Event Name\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\nYear(s)\n\n\nTitle\n\n\nSource\n\n\n\n\n\n\n2020\n\n\nName of Grant or Fellowship\n\n\nFunding Source\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\nActivities & Awards\n\n\nTeaching & MentorshipWork ExperienceAwards & Honors\n\n\n\n\n\n\n\n\nYear(s)\n\n\nExperience\n\n\nSubject or Program\n\n\n\n\n\n\n2015-2018\n\n\nRole\n\n\nCourse or Program\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\nYear(s)\n\n\nRole\n\n\nLocation\n\n\n\n\n\n\n2020 - Now\n\n\nName of Job\n\n\nEmployer Name\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\nYear(s)\n\n\nAward or Honor\n\n\nSource\n\n\n\n\n\n\n2020-2022\n\n\nAward Title\n\n\nsource of award\n\n\n\n\n\n\nNo matching items"
+    "text": "Tobias M. Holden\n\n\n\nI am a MD/PhD student in the Northwestern University Medical Scientist Training Program. In my PhD research I have applied high-performance computing and mathematical modeling to study COVID-19 and malaria epidemiology. I am interested in using modeling and analytics to inform decision-making for public health.\n tobias.holden@northwestern.eduLanguages Spoken  | English (fluent)  | Spanish (professional)\n\n\nEducation\n\nNon-Degree  NIH PREP @ ISMMS (Postbac)   Pre-College  SC Governor’s School for Science and Mathematics\n\n\n\n\n\n\n\n\n\n\nPh.D.\n\n\n2021 -  Health & Biomedical Informatics\n\n\n\nNorthwestern University MSTP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nM.D.\n\n\n2019 -  Doctor of Medicine\n\n\n\nNorthwestern University MSTP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nB.S.\n\n\n2013 - 2017  Molecular, Cellular, and Developmental Biology\n\n\n\nYale University\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nResearch\n\n Skills  | Mathematical Modeling  | GIS  | High-Performance Computing  | Biostatistics  | Data Analysis  | Data Visualization  | App Development Programming Languages  | R  | Python  | Matlab  | HTML  | Linux\n\n\n\n\n\n\n\n\n\n\nAgent-Based Modeling of Malaria Transmission 🦟\n\n\n2021 -  PhD Student with Dr. Jaline Gerardin\n\n\n\nNorthwestern University Institute for Global Health\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 Surveillance and Racial/Ethnic Disparities 🫁\n\n\n2020 - 2022  PhD Rotation with Dr. Jaline Gerardin\n\n\n\nNorthwestern University Department of Preventive Medicine\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgent-Based Modeling of Food Choice and Obesity Disparities 🛒\n\n\n2019  PhD Rotation with Dr. Kiarri Kershaw\n\n\n\nNorthwestern University Department of Preventive Medicine\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdolescent Brain & Cognitive Development 🧠\n\n\n2018 - 2019  Research Assistant with Dr. Lindsay Squeglia\n\n\n\nMedical University of South Carolina\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputational Modeling of Stem Cell-Derived Cardiomyocytes 🫀\n\n\n2017 - 2018  NIH PREP Scholar with Dr. Eric Sobie\n\n\n\nISMMS Department of Pharmacological Sciences\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuantifying Heterogeneity in Collective Bacterial Migration 🔬\n\n\n2016 - 2017  B.S. Thesis with Dr. Theirry Emonet\n\n\n\nYale University Department of MCDB\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReproductive Stem Cell Biology 🧫\n\n\n2015 - 2016  STARS Fellow with Dr. Winifred Mak\n\n\n\nYale University Stem Cell Center\n\n\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n Professional Affiliations  | ACM Special Interest Group on High-Performance Computing  | American Physician Scientists Association  | American Society of Tropical Medicine & Hygiene  | Applied Malaria Modeling Network  | Models of Infectious Disease Agent Study Network  | NIH National Institute of Allergy and Infectious Disease  | NU Malaria Modeling  | NU Medical Scientist Training Program\n\nPublicationsTalksPosters\n\n\n\n\n\n\n\n\nYear\n\n\nTitle\n\n\nJournal\n\n\nCites\n\n\n\n\n\n\n2022\n\n\nTracking changes in SARS-CoV-2 transmission with a novel outpatient sentinel surveillance system in Chicago, USA\n\n\nNature Communications\n\n\n1\n\n\n\n\n2022\n\n\nModeling robust COVID-19 intensive care unit occupancy thresholds for imposing mitigation to prevent exceeding capacities\n\n\nPLoS Global Public Health\n\n\n4\n\n\n\n\n2022\n\n\nStructural racism and COVID-19 response: higher risk of exposure drives disparate COVID-19 deaths among Black and Hispanic/Latinx residents of Illinois, USA\n\n\nBMC Public Health\n\n\n23\n\n\n\n\n2021\n\n\nGeographic and demographic heterogeneity of SARS-CoV-2 diagnostic testing in Illinois, USA, March to December 2020\n\n\nBMC Public Health\n\n\n13\n\n\n\n\n2016\n\n\nAn important role of Pumilio 1 in regulating the development of the mammalian female germline\n\n\nBiology of Reproduction\n\n\n64\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n\n\n\n\n\n\n\n\nYear\n\n\nTitle\n\n\nConference/Event\n\n\n\n\n\n\n2022\n\n\nRecalibration of a mathematical model of malaria transmission with parasite and infectivity data from Burkina Faso\n\n\nJohns Hopkins University World Malaria Day\n\n\n\n\n2021\n\n\nStructural racism and COVID-19 response: Higher risk of exposure drives disparate COVID-19 deaths among Black and Hispanic/Latinx residents of Illinois, USA\n\n\nAmerican Society of Tropical Medicine & Hygeniene Annual Meeting\n\n\n\n\n2017\n\n\nDiversity and collective migration of Escherichia coli in semisolid agar\n\n\nYale University Molecular, Cellular, and Developmental Biology Symposium\n\n\n\n\n2017\n\n\nBetter Together? Diversity and collective migration of E. coli in semi-solid agar\n\n\nTrumbull College Mellon Forum\n\n\n\n\n2015\n\n\nLentiviral induction of trophoblast stem cells\n\n\nYale University STARS Summer Research Symposium\n\n\n\n\n2013\n\n\nThe effects of ang-2 stimulation on human brain pericyte expression of platelet-derived growth factor receptor-beta\n\n\nSouth Carolina Junior Academy of Science Annual Meeting\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n\n\n\n\n\n\n\n\nYear\n\n\nTitle\n\n\nConference/Event\n\n\n\n\n\n\n2022\n\n\nRecalibration of Within-Host Parameters in an Agent Based Malaria Transmission Model Based on the INDIE-1a Trial\n\n\nAmerican Society of Tropical Medicine and Hygiene Annual Meeting\n\n\n\n\n2022\n\n\nConstructing, Calibrating, and Validating an Agent-Based Model of Interventions to Detect & Treat Asymptomatic Malaria: Simulating the INDIE Trial in Burkina Faso\n\n\nRobert J. Havey, MD Institute for Global Health: Global Health Day\n\n\n\n\n2022\n\n\nInferring the effect of participant migration on outcomes from a clinical trial of malaria mass testing, treatment, and tracking interventions in Greater Accra, Ghana: an agent-based modeling study\n\n\nFeinberg School of Medicine Lewis Landsberg Research Day\n\n\n\n\n2021\n\n\nSimulating interventions for screening, testing, and treating asymptomatic malaria infections\n\n\nRobert J. Havey, MD Institute for Global Health: Global Health Day\n\n\n\n\n2018\n\n\nOptimization of in silico hSC-CM model for preclinical pro-arrhythmia assessment and an app-based approach to collaborative drug safety screening\n\n\nNIH PREP Regional Symposium\n\n\n\n\n2017\n\n\nDiversity and collective migration of Escherichia coli in semisolid agar\n\n\nYale University Molecular, Cellular, and Developmental Biology Symposium\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n\n\n\n\n\n\nActivities & Awards\n\n Hobbies & Other Passions  | Film & Digital Photography  | Hiking  | Rollerblading  | Trivia  | Film Criticism\n\nGrants & FellowshipsProfessional ActivitiesAwards & Honors\n\n\n\n\n\n\n\n\nYear(s)\n\n\nType\n\n\nGrant or Fellowship\n\n\nSource\n\n\n\n\n\n\n2022-2025\n\n\nGrant\n\n\nNRSA Individual Predoctoral Fellowship\n\n\nNIH NIAID\n\n\n\n\n2022-2025\n\n\nFellowship\n\n\nComputational & Data Science Fellowship\n\n\nACM SIGHPC\n\n\n\n\n2017-2018\n\n\nFellowship\n\n\nPREP Scholarship @ Icahn School of Medicine at Mt. Sinai\n\n\nNIH NIGMS\n\n\n\n\n2016\n\n\nGrant\n\n\nMellon Forum Research Grant\n\n\nYale University\n\n\n\n\n2015\n\n\nFellowship\n\n\nSTARS Summer Research Fellowship\n\n\nYale University\n\n\n\n\n2012\n\n\nFellowship\n\n\nResearch Exchange Scholarship @ DKFZ Heidelberg\n\n\nHoffman-La Roche\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n\n\n\n\n\n\n\n\nYear(s)\n\n\nCategory\n\n\nRole\n\n\n\n\n\n\n\n\n2022 - 2023\n\n\nTeaching\n\n\nCo-Instructor\n\n\nFaculty Enrichment Program in Applied Malaria Modeling\n\n\n\n\n2022 - 2023\n\n\nLeadership\n\n\nSeminar Committee Member\n\n\nApplied Malaria Modeling Network (AMMnet)\n\n\n\n\n2021 - 2023\n\n\nLeadership\n\n\nApplication Screener & Interviewer\n\n\nNorthwestern MSTP\n\n\n\n\n2019 - 2023\n\n\nClinical\n\n\nStudent Doctor in ECMH\n\n\nErie Family Health Center - Humboldt Park\n\n\n\n\n2022\n\n\nTeaching\n\n\nGraduate TA\n\n\nHQS 402: Intro to Patient Safety\n\n\n\n\n2021 - 2022\n\n\nLeadership\n\n\nCo-President\n\n\nMSTP Student Council\n\n\n\n\n2020 - 2022\n\n\nData Science\n\n\nData Equity Working Group Member\n\n\nIllinois Department of Public Health\n\n\n\n\n2020 - 2021\n\n\nLeadership\n\n\nCo-Founder\n\n\nGeneration NU (1st-Generation Support Group)\n\n\n\n\n2020\n\n\nData Science\n\n\nVolunteer Data Analyst\n\n\n#GetMePPE Chicago (COVID-19 Response non-profit)\n\n\n\n\n2019-2021\n\n\nTeaching\n\n\nVolunteer R Tutor\n\n\n\n\n\n\n\n2018 - 2019\n\n\nData Science\n\n\nPathology Informatics Group Member\n\n\nMedical University of South Carolina\n\n\n\n\n2017\n\n\nTeaching\n\n\nQuantitative Reasoning Tutor\n\n\nYale University ONEXYS\n\n\n\n\n2016 - 2017\n\n\nMentorship\n\n\nFirst-Year Counselor\n\n\nTrumbull College at Yale University\n\n\n\n\n2016\n\n\nMentorship\n\n\nSummer Counselor\n\n\nFirst-Year Scholars at Yale (FSY) Program\n\n\n\n\n2015 - 2016\n\n\nMentorship\n\n\nOrientation Trip Leader\n\n\nFirst-Year Outdoor Oorientation Trips (FOOT) at Yale\n\n\n\n\n2015 - 2016\n\n\nEntrepreneurship\n\n\nCo-Founder\n\n\nSimplex Sciences (Biotech Venture)\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n\n\n\n\n\n\n\n\nYear(s)\n\n\nAward or Honor\n\n\nSource\n\n\n\n\n\n\n2022\n\n\nAnnual Meeting Travel Award\n\n\nModels of Infectious Disease Agent Study (MIDAS) Network\n\n\n\n\n2019-2021\n\n\nHeller Scholarship\n\n\nNorthwestern MSTP\n\n\n\n\n2018\n\n\nBest Poster\n\n\nNIH PREP Regional Symposium\n\n\n\n\n2013\n\n\nBest Oral Presentation in Physiology & Health\n\n\nSouth Carolina Junior Academy of Science (SCJAS)\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "grants_and_fellowships/SIGHPC.html",
+    "href": "grants_and_fellowships/SIGHPC.html",
+    "title": "Computational & Data Science Fellowship",
+    "section": "",
+    "text": "In 2015 Intel announced it would provide $1.5M in funding over five years to increase the diversity of students pursuing graduate degrees in data science and computational science. The ACM SIGHPC/Intel Computational and Data Science Fellowships were the result of Intel’s commitment to this community. Specifically targeted at women or students from racial/ethnic backgrounds that have not traditionally participated in the computing field, the program was open to students pursuing degrees at institutions anywhere in the world. The fellowships are highly competitive, and are awarded after a rigorous merit review. The fellowship program, previously funded by Intel, is now funded exclusively by SIGHPC. I was named one of eleven fellowship recipients for 2022.\nThe program is intended to increase the diversity of students pursuing graduate degrees in data science and computational science, including women as well as students from racial/ethnic backgrounds that have been historically underrepresented in the computing field. The fellowship provides $15,000 annually for study anywhere in the world.\nStudents were nominated by their graduate advisors. Nominees spanned disciplines from biomedical engineering and computer science to quantum chemistry and geophysics, and represented large, mid-sized, and small institutions in countries around the world. More than 90% of nominees were female, and 45% were identified as an underrepresented minority in their country of study.\nThe nominations were evaluated and ranked by a panel of experts (who were themselves diverse with respect to race, gender, discipline, and nationality) based on nominees’ overall potential for excellence in data science and/or computational science, and the extent to which they will serve as leaders and role models to increase diversity in the workplace."
+  },
+  {
+    "objectID": "grants_and_fellowships/NIAID_F31.html",
+    "href": "grants_and_fellowships/NIAID_F31.html",
+    "title": "NRSA Individual Predoctoral Fellowship",
+    "section": "",
+    "text": "NIAID 1F31AI172387-01"
+  },
+  {
+    "objectID": "grants_and_fellowships/yale_mellon_grant.html",
+    "href": "grants_and_fellowships/yale_mellon_grant.html",
+    "title": "Mellon Forum Research Grant",
+    "section": "",
+    "text": "The Trumbull College Mellon Forum provides seniors who are doing senior projects or writing senior essays with opportunities to share their work with each other in an intellectually stimulating and congenial setting. It is competitive to get into the Forum, but those accepted tend to really appreciate the experience!\nA limited number of Mellon Forum Research Grants are available for Trumbull undergraduates to pursue research during the academic year under the supervision of a member of the Yale faculty. If awarded a grant, you are required to report on the results of your research either to the Mellon Senior Forum or to another educational forum in the College. In addition, you must submit to the Trumbull Office a written report on the work made possible by the grant by April."
   }
 ]

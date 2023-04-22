@@ -1,0 +1,15 @@
+---
+title: "Simulating interventions for screening, testing, and treating asymptomatic malaria infections"
+author: 
+  - Tobias M. Holden
+description: Brief description.
+year: 2021
+doi: <doi>
+abstract: Abstract goes here.
+toc: true
+toc-depth: 5
+conference-event: "Robert J. Havey, MD Institute for Global Health: Global Health Day"
+style: Poster
+---
+
+![]()

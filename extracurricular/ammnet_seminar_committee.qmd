@@ -1,0 +1,9 @@
+---
+title: Seminar Committee Member
+years: "2022 - 2023"
+description: Applied Malaria Modeling Network (AMMnet)
+current: 1
+type: Leadership
+---
+
+![]()

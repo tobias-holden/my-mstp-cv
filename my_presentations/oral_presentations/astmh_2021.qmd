@@ -1,0 +1,13 @@
+---
+title: "Structural racism and COVID-19 response: Higher risk of exposure drives disparate COVID-19 deaths among Black and Hispanic/Latinx residents of Illinois, USA"
+author: Tobias M. Holden
+year: 2021
+doi: <doi>
+abstract: Abstract
+toc: true
+toc-depth: 5
+conference-event: American Society of Tropical Medicine & Hygeniene Annual Meeting
+style: Oral
+---
+
+![]()

@@ -1,0 +1,12 @@
+---
+title: Co-Founder
+years: "2015 - 2016"
+description: Simplex Sciences (Biotech Venture)
+current: 0
+type: Entrepreneurship
+page-layout: article
+---
+
+The story of Simplex Sciences began with...
+
+[Learn more about Simplex Science's current operations](https://www.simplexsciences.com/)
