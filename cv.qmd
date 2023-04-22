@@ -133,7 +133,7 @@ Tobias M. Holden
 
 </h1>
 
-I am a MD/PhD student in the Northwestern University Medical Scientist Training Program. In my PhD research I have applied high-performance computing and mathematical modeling to study COVID-19 and malaria epidemiology. I am interested in using modeling and analytics to inform decision-making for public health.\
+I am a MD/PhD student in the Northwestern University Medical Scientist Training Program. In my PhD research I have applied high-performance computing and mathematical modeling to study COVID-19 and malaria epidemiology. I am broadly interested in using modeling and analytics to inform decision-making for public health, especially as it pertains to diseases with environmental causes.\
 [[tobias.holden\@northwestern.edu](mailto:tobias.holden@northwestern.edu)]{.aside} [**Languages Spoken** <br> \| English (fluent) <br> \| Spanish (professional)]{.aside}
 
 <center>

@@ -1,0 +1,9 @@
+---
+title: "Blog Post #3"
+author: Tobias M. Holden
+date: 2023-04-03
+categories: General
+page-layout: article
+---
+
+About the trip...

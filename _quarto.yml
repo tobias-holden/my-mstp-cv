@@ -7,7 +7,7 @@ project:
 website:
   # True website title displayed on browser tabs, in searches, etc.
   title: Tobias M. Holden 
-  favicon: images/purple.png
+  favicon: images/tmh_logo.png
   page-footer: "© Tobias M. Holden 2023"
   # Website Navigation
   ####################
@@ -17,7 +17,7 @@ website:
     foreground: light   # sidebar text color
     background: primary # sidebar background color
     # Top
-    logo: images/northwestern_logo.png 
+    logo: images/tmh_logo_white.png
     title: Tobias M. Holden
     header: ""    
     # Social / scholar links in sidebar
@@ -42,6 +42,8 @@ website:
     contents: 
       - text: "CURRICULUM VITAE"
         href: cv.qmd
+      - section: "Blogs"
+        contents: blogs/*.qmd
             
 # Theme Options
 ###############

@@ -1,0 +1,13 @@
+---
+title: PhD Blog
+author: Tobias M. Holden
+page-layout: article
+listing: 
+  type: default
+  page-size: 4
+  fields: [date, title, image]
+  contents: phd_blog_posts/*.qmd
+  sort: date desc
+  image-placeholder: ../images/tmh_logo.png
+  categories: numbered
+---

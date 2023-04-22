@@ -2,8 +2,8 @@
 title: "Tobias M. Holden"
 about:
   template: jolla
-  image-shape: round
-  image: images/northwestern_logo.png
+  image-shape: rectangle
+  image: images/tmh_logo.png
   links:
     - icon: twitter
       text: twitter
@@ -24,6 +24,11 @@ format:
 
 ------------------------------------------------------------------------
 
-I am a **MD/PhD student** @ *Northwestern University Medical Scientist Training Program*. In my PhD research, I have applied high-performance computing and mathematical modeling to study COVID-19 and malaria epidemiology. In addition to training through the MSTP, I am a **Predoctoral Research Fellow** @ *NIH National Institute of Allergy and Infectious Disease* and a **Computational & Data Science Fellow** @ *ACM Special Interest Group on HPC*
+I am a **MD/PhD student** \@ *Northwestern University Medical Scientist Training Program*. In my PhD research, I have applied high-performance computing and mathematical modeling to study COVID-19 and malaria epidemiology.
+
+[**NRSA Predoctoral Research Fellow**]{style="float:left"} [**Computational & Data Science Fellow**]{style="float:right"}<br>
+[@ NIH NIAID]{style="float:left"} [@ ACM SIGHPC]{style="float:right"}
+
+<br>
 
 [**M.D. Doctor of Medicine**]{style="float:left"} [2019 - 2027\*]{style="float:right"} <br> [*Northwestern University MSTP*]{style="float:left"} <br> [**Ph.D. Health & Biomedical Informatics**]{style="float:left"} [2021 - 2025\*]{style="float:right"} <br> [*Northwestern University MSTP*]{style="float:left"} <br> [**B.S. Molecular, Cellular, and Developmental Biology (Quantitative)**]{style="float:left"} [2013 - 2017]{style="float:right"} <br> [*Yale University*]{style="float:left"}<br>
