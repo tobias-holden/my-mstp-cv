@@ -42,7 +42,7 @@ website:
     contents: 
       - text: "CURRICULUM VITAE"
         href: cv.qmd
-      - section: "Blogs"
+      - section: "BLOGS"
         contents: blogs/*.qmd
             
 # Theme Options

@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/blogs/phd_blog.html",
+    "items": [
+      "/blogs/phd_blog_posts/post4.html",
+      "/blogs/phd_blog_posts/post3.html",
+      "/blogs/phd_blog_posts/post2.html",
+      "/blogs/phd_blog_posts/swissTPH_trip.html"
+    ]
+  },
+  {
     "listing": "/my_research/mak_lab.html",
     "items": [
       "/my_publications/pumilio_1_paper.html"
@@ -78,15 +87,6 @@
       "/teaching_and_mentoring/fsy.html",
       "/teaching_and_mentoring/foot.html",
       "/extracurricular/simplex_sciences.html"
-    ]
-  },
-  {
-    "listing": "/blogs/phd_blog.html",
-    "items": [
-      "/blogs/phd_blog_posts/post4.html",
-      "/blogs/phd_blog_posts/post3.html",
-      "/blogs/phd_blog_posts/post2.html",
-      "/blogs/phd_blog_posts/swissTPH_trip.html"
     ]
   }
 ]
